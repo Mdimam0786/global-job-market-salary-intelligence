@@ -1,0 +1,31 @@
+streamlit>=1.38
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+scikit-learn>=1.3
+scipy>=1.11
+streamlit-aggrid>=1.0.5
+
+# Required -- utils/data_loader.py imports this unconditionally at module
+# level (to support the optional USE_DATABASE toggle via .env), so this
+# is NOT optional even though most users will never set USE_DATABASE=true.
+python-dotenv>=1.0
+
+# Required for the Project Architecture page's diagrams (views/architecture.py).
+# ALSO requires the system `dot` binary separately (apt install graphviz /
+# brew install graphviz / see https://graphviz.org/download/ for Windows) --
+# the Python package alone is not sufficient.
+graphviz>=0.20
+
+# NOT included here: sqlalchemy, psycopg2-binary. Only needed if you set
+# USE_DATABASE=true and connect this app to PostgreSQL -- see
+# requirements-database.txt and the README's "Connect to PostgreSQL" section.
+
+# I couldn't verify this on my original build machine (no network access) --
+# see ../docs/technical_design_document.md for the project's standing
+# policy on this. Every file in this streamlit_app/ was written to the
+# correct, current Streamlit API as best I could check without running it,
+# but it was NOT executed or screenshot-tested there. Run `streamlit run app.py`
+# locally after `pip install -r requirements.txt` as your first
+# verification step -- treat the first local run as a real test, not
+# a formality.

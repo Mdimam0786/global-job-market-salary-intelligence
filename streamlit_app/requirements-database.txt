@@ -1,0 +1,9 @@
+# Optional: only needed if you set USE_DATABASE=true in .env and want
+# to run this app against a real PostgreSQL instance instead of the
+# bundled CSVs (see ../scripts/load_star_schema.py and the README's PostgreSQL
+# setup section).
+#
+# Install with: pip install -r requirements-database.txt
+
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
