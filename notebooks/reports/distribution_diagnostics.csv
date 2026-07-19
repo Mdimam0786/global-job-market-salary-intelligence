@@ -1,0 +1,3 @@
+dataset,skewness,excess_kurtosis,anderson_darling_stat,ad_critical_5pct,normal_at_5pct,log1p_skewness
+jobs_fact salary_in_usd,0.7359576917603944,0.8807987945412061,75.98884841180916,0.752,False,-0.6879406997362095
+Levels.fyi total_yearly_compensation,4.512479406271579,86.99508783632548,2076.1487723999307,0.752,False,-0.7166300246014821

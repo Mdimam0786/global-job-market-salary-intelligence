@@ -1,0 +1,8 @@
+company_location,n,avg_salary,median_salary,salary_rank,pct_of_top_country
+United States,12465,156526.0,148300.0,1,100.0
+Canada,373,144922.0,140000.0,2,94.4
+Australia,51,131205.0,105000.0,3,70.8
+United Kingdom,623,96287.0,81206.0,4,54.8
+Germany,96,92883.0,76833.0,5,51.8
+France,59,81999.0,64781.0,6,43.7
+Spain,127,56817.0,48585.0,7,32.8

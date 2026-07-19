@@ -1,0 +1,101 @@
+job_id,job_title,job_category,salary_in_usd,rank_in_category,percentile_in_category,category_avg_salary,diff_from_category_avg
+1705,Business Intelligence Manager,BI and Visualization,263000,1,100.0,125803.0,137197.0
+2067,Business Intelligence,BI and Visualization,260000,2,99.8,125803.0,134197.0
+5960,Business Intelligence Specialist,BI and Visualization,259900,3,99.7,125803.0,134097.0
+9853,Business Intelligence Engineer,BI and Visualization,259000,4,99.5,125803.0,133197.0
+8402,Business Intelligence Engineer,BI and Visualization,247500,5,98.8,125803.0,121697.0
+8621,Business Intelligence Engineer,BI and Visualization,247500,5,98.8,125803.0,121697.0
+9077,Business Intelligence Engineer,BI and Visualization,247500,5,98.8,125803.0,121697.0
+9282,Business Intelligence Engineer,BI and Visualization,247500,5,98.8,125803.0,121697.0
+8378,Business Intelligence Engineer,BI and Visualization,241300,9,98.7,125803.0,115497.0
+9308,BI Analyst,BI and Visualization,234485,10,98.5,125803.0,108682.0
+2,Business Intelligence,BI and Visualization,230000,11,98.0,125803.0,104197.0
+247,Business Intelligence,BI and Visualization,230000,11,98.0,125803.0,104197.0
+575,Business Intelligence,BI and Visualization,230000,11,98.0,125803.0,104197.0
+2969,Business Intelligence Analyst,BI and Visualization,226844,14,97.8,125803.0,101041.0
+4463,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+4732,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+4764,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+5824,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+7267,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+7869,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+8303,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+8516,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+8633,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+9714,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+9946,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+10047,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+10574,Business Intelligence Engineer,BI and Visualization,225000,15,95.7,125803.0,99197.0
+7842,Business Intelligence Engineer,BI and Visualization,220000,28,95.5,125803.0,94197.0
+9520,Business Intelligence Engineer,BI and Visualization,210000,29,95.3,125803.0,84197.0
+50,Business Intelligence,BI and Visualization,207600,30,95.2,125803.0,81797.0
+1706,Business Intelligence Manager,BI and Visualization,207000,31,95.0,125803.0,81197.0
+3121,Business Intelligence Engineer,BI and Visualization,206000,32,94.8,125803.0,80197.0
+4428,Business Intelligence Engineer,BI and Visualization,205000,33,94.7,125803.0,79197.0
+2679,BI Developer,BI and Visualization,204500,34,94.3,125803.0,78697.0
+8321,Business Intelligence Engineer,BI and Visualization,204500,34,94.3,125803.0,78697.0
+6628,Business Intelligence Engineer,BI and Visualization,204300,36,94.2,125803.0,78497.0
+5908,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+6118,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+6231,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+6285,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+6293,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+6394,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+8050,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+8282,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+9391,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+9556,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+9620,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+9899,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+10212,Business Intelligence Engineer,BI and Visualization,202800,37,92.0,125803.0,76997.0
+5398,BI Analyst,BI and Visualization,202000,50,91.7,125803.0,76197.0
+5450,BI Analyst,BI and Visualization,202000,50,91.7,125803.0,76197.0
+3242,Business Intelligence Analyst,BI and Visualization,200400,52,91.5,125803.0,74597.0
+9037,Business Intelligence Analyst,BI and Visualization,200000,53,91.2,125803.0,74197.0
+13185,BI Analyst,BI and Visualization,200000,53,91.2,125803.0,74197.0
+5199,Business Intelligence Analyst,BI and Visualization,198200,55,90.8,125803.0,72397.0
+5804,Business Intelligence Analyst,BI and Visualization,198200,55,90.8,125803.0,72397.0
+12164,BI Developer,BI and Visualization,197000,57,90.7,125803.0,71197.0
+6964,Business Intelligence Analyst,BI and Visualization,194521,58,90.5,125803.0,68718.0
+6865,Business Intelligence Analyst,BI and Visualization,194500,59,90.3,125803.0,68697.0
+7356,Business Intelligence Analyst,BI and Visualization,193600,60,90.2,125803.0,67797.0
+1843,Business Intelligence,BI and Visualization,193000,61,90.0,125803.0,67197.0
+67,Business Intelligence,BI and Visualization,192500,62,89.8,125803.0,66697.0
+14,Business Intelligence Analyst,BI and Visualization,192300,63,89.6,125803.0,66497.0
+9356,Business Intelligence Engineer,BI and Visualization,192000,64,89.5,125803.0,66197.0
+2218,Business Intelligence Engineer,BI and Visualization,190000,65,89.3,125803.0,64197.0
+3870,Business Intelligence Analyst,BI and Visualization,189000,66,89.0,125803.0,63197.0
+4252,Business Intelligence Analyst,BI and Visualization,189000,66,89.0,125803.0,63197.0
+2845,Business Intelligence Engineer,BI and Visualization,186846,68,88.6,125803.0,61043.0
+2846,Business Intelligence Engineer,BI and Visualization,186846,68,88.6,125803.0,61043.0
+5282,Business Intelligence Engineer,BI and Visualization,186030,70,88.5,125803.0,60227.0
+10630,Business Intelligence Engineer,BI and Visualization,185900,71,88.3,125803.0,60097.0
+1018,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+1038,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+1260,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+1438,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+2443,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+2601,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+3262,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+4139,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+4694,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+4880,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+5082,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+5428,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+5557,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+5605,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+5942,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+6215,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+6491,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+7025,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+7331,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+7520,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+8345,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+8786,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9172,Data Visualization Specialist,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9213,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9512,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9601,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9630,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9657,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0
+9734,Business Intelligence Engineer,BI and Visualization,185000,72,83.3,125803.0,59197.0

@@ -1,0 +1,3 @@
+output,input_rows,output_rows,filter_applied,columns_selected,bonus_columns_added
+so_skills_clean.csv,65437,65437,none,17,1
+so_salary_clean.csv,65437,23435,ConvertedCompYearly & Country not null,17,3

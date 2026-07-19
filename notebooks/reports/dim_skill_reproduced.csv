@@ -1,0 +1,182 @@
+skill_key,skill_name,skill_category
+1,Bash/Shell (all shells),Language
+2,Go,Language
+3,HTML/CSS,Language
+4,Java,Language
+5,JavaScript,Language
+6,Python,Language
+7,TypeScript,Language
+8,C#,Language
+9,C,Language
+10,C++,Language
+11,PHP,Language
+12,PowerShell,Language
+13,SQL,Language
+14,Lua,Language
+15,Rust,Language
+16,Swift,Language
+17,R,Language
+18,Ruby,Language
+19,Delphi,Language
+20,VBA,Language
+21,Visual Basic (.Net),Language
+22,F#,Language
+23,Clojure,Language
+24,Scala,Language
+25,Perl,Language
+26,MATLAB,Language
+27,OCaml,Language
+28,Assembly,Language
+29,Dart,Language
+30,Fortran,Language
+31,Julia,Language
+32,Crystal,Language
+33,Kotlin,Language
+34,Lisp,Language
+35,Prolog,Language
+36,Haskell,Language
+37,Ada,Language
+38,Elixir,Language
+39,Erlang,Language
+40,Groovy,Language
+41,Zig,Language
+42,GDScript,Language
+43,MicroPython,Language
+44,Objective-C,Language
+45,Cobol,Language
+46,Nim,Language
+47,Apex,Language
+48,Solidity,Language
+49,Zephyr,Language
+50,Dynamodb,Database
+51,MongoDB,Database
+52,PostgreSQL,Database
+53,Firebase Realtime Database,Database
+54,MySQL,Database
+55,SQLite,Database
+56,Cloud Firestore,Database
+57,Supabase,Database
+58,Redis,Database
+59,Elasticsearch,Database
+60,Microsoft Access,Database
+61,Microsoft SQL Server,Database
+62,MariaDB,Database
+63,Oracle,Database
+64,Snowflake,Database
+65,Presto,Database
+66,Databricks SQL,Database
+67,DuckDB,Database
+68,Cassandra,Database
+69,H2,Database
+70,Neo4J,Database
+71,Cosmos DB,Database
+72,BigQuery,Database
+73,Firebird,Database
+74,Clickhouse,Database
+75,InfluxDB,Database
+76,IBM DB2,Database
+77,Solr,Database
+78,EventStoreDB,Database
+79,RavenDB,Database
+80,Couch DB,Database
+81,Cockroachdb,Database
+82,Couchbase,Database
+83,TiDB,Database
+84,Datomic,Database
+85,Amazon Web Services (AWS),Platform
+86,Heroku,Platform
+87,Netlify,Platform
+88,Google Cloud,Platform
+89,Fly.io,Platform
+90,Cloudflare,Platform
+91,Firebase,Platform
+92,Vercel,Platform
+93,Digital Ocean,Platform
+94,Hetzner,Platform
+95,VMware,Platform
+96,Microsoft Azure,Platform
+97,Databricks,Platform
+98,Oracle Cloud Infrastructure (OCI),Platform
+99,PythonAnywhere,Platform
+100,Render,Platform
+101,Supabase,Platform
+102,Managed Hosting,Platform
+103,OpenShift,Platform
+104,OVH,Platform
+105,IBM Cloud Or Watson,Platform
+106,Alibaba Cloud,Platform
+107,Vultr,Platform
+108,Colocation,Platform
+109,"Linode, now Akamai",Platform
+110,Scaleway,Platform
+111,OpenStack,Platform
+112,Express,Webframe
+113,Next.js,Webframe
+114,Node.js,Webframe
+115,React,Webframe
+116,ASP.NET CORE,Webframe
+117,jQuery,Webframe
+118,WordPress,Webframe
+119,Ruby on Rails,Webframe
+120,ASP.NET,Webframe
+121,CodeIgniter,Webframe
+122,Blazor,Webframe
+123,Django,Webframe
+124,AngularJS,Webframe
+125,Angular,Webframe
+126,Flask,Webframe
+127,NestJS,Webframe
+128,FastAPI,Webframe
+129,Spring Boot,Webframe
+130,Vue.js,Webframe
+131,Fastify,Webframe
+132,Solid.js,Webframe
+133,Laravel,Webframe
+134,Htmx,Webframe
+135,Deno,Webframe
+136,Phoenix,Webframe
+137,Remix,Webframe
+138,Svelte,Webframe
+139,Symfony,Webframe
+140,Play Framework,Webframe
+141,Drupal,Webframe
+142,Elm,Webframe
+143,Gatsby,Webframe
+144,Nuxt.js,Webframe
+145,Strapi,Webframe
+146,Yii 2,Webframe
+147,Astro,Webframe
+148,Docker,Tool
+149,Homebrew,Tool
+150,Kubernetes,Tool
+151,npm,Tool
+152,Vite,Tool
+153,Webpack,Tool
+154,MSBuild,Tool
+155,Pip,Tool
+156,APT,Tool
+157,Make,Tool
+158,pnpm,Tool
+159,Yarn,Tool
+160,Ansible,Tool
+161,Chocolatey,Tool
+162,NuGet,Tool
+163,Pacman,Tool
+164,Terraform,Tool
+165,Ant,Tool
+166,Godot,Tool
+167,Maven (build tool),Tool
+168,Visual Studio Solution,Tool
+169,Nix,Tool
+170,Gradle,Tool
+171,Unity 3D,Tool
+172,Bun,Tool
+173,Unreal Engine,Tool
+174,Ninja,Tool
+175,Composer,Tool
+176,Google Test,Tool
+177,Podman,Tool
+178,Dagger,Tool
+179,Pulumi,Tool
+180,Puppet,Tool
+181,Chef,Tool

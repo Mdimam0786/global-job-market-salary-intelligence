@@ -1,0 +1,11 @@
+notebook,phase,key_finding
+01,Data Sourcing & Quality Audit,"Verified 38.7% duplicate rate + candidate-dataset overlap check (zero overlap, not superseded)"
+02,ETL: Jobs & Levels.fyi,"Fixed a real location-parsing bug (naive comma-count mislabeled 'Tel Aviv, Israel' as US)"
+03,ETL: Stack Overflow Survey,Found & fixed a Currency field tab/space inconsistency; added currency_code as a bonus column
+04,Star Schema Design & Population,Closed the project's own documented gap (unpopulated star schema) -- caught a mid-build coverage bug via a hard assert
+05,Exploratory Data Analysis,Caught an arithmetic error in the project's own EDA report (78% vs. the correct 83% US/UK premium)
+06,NLP & Skill Extraction,"Caught a 'Supabase' category-collision bug (965,801 vs. correct 967,209 bridge rows) via exact-match validation"
+07,Statistical Analysis,Cross-validated a regression exactly against statsmodels; flagged another report F-statistic discrepancy
+08,Machine Learning,100% exact cluster-label match against shipped job_clusters.csv; reproduced a documented sklearn bug live
+09,SQL Analytics Layer,Ran 6 of 10 SQL objects verbatim; honestly syntax-reviewed the 2 untestable Postgres-only objects
+10,Streamlit App Walkthrough,Imported the real production code -- live model matched Notebook 08 to 6 decimal places

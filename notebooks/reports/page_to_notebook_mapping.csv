@@ -1,0 +1,15 @@
+page,key,loads,notebook
+Home,home,"compute_home_kpis, load_jobs",02 (ETL)
+EDA Explorer,eda,load_jobs,05 (EDA)
+Statistics,statistics,"load_jobs, load_levels",07 (Statistics)
+Job Postings Search,startup_search,load_jobs,02 (ETL)
+Company Search,investor_search,load_levels,02 (ETL)
+Country Explorer,country_search,load_jobs,"02, 05"
+Skill / Category Explorer,industry_search,"load_jobs, load_dim_skill, load_skill_bridge, load_skill_rules",06 (NLP/Skills)
+Salary Prediction,funding_prediction,load_jobs (+ live model training),08 (ML)
+Experience-Level Prediction,success_prediction,load_jobs (+ live model training),08 (ML)
+Model Explainability,shap_explain,load_jobs,08 (ML)
+SQL Insights,sql_insights,load_jobs + raw .sql file display,09 (SQL)
+Project Architecture,architecture,(static content),04 (Schema)
+Documentation,documentation,(renders data/docs/*.md files),all
+About / Contact,about,compute_home_kpis,02 (ETL)

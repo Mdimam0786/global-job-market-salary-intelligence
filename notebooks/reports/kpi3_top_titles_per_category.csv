@@ -1,0 +1,29 @@
+job_category,job_title,n,avg_salary,rnk
+BI and Visualization,Business Intelligence,42,149104.0,1
+BI and Visualization,Business Intelligence Manager,14,143521.0,2
+BI and Visualization,Business Intelligence Engineer,218,141943.0,3
+Cloud and Database,Cloud Database Engineer,11,142818.0,1
+Data Analysis,Data Analyst,2120,107935.0,1
+Data Analysis,Business Data Analyst,19,79411.0,2
+Data Analysis,BI Data Analyst,17,70815.0,3
+Data Architecture and Modeling,Data Architect,347,163008.0,1
+Data Architecture and Modeling,Data Modeler,42,130519.0,2
+Data Architecture and Modeling,Data Strategist,24,102400.0,3
+Data Engineering,Data Infrastructure Engineer,16,207333.0,1
+Data Engineering,Data Engineer,3059,147170.0,2
+Data Engineering,Data Integration Engineer,16,125466.0,3
+Data Management and Strategy,Data Management Analyst,12,91748.0,1
+Data Management and Strategy,Data Specialist,72,90392.0,2
+Data Management and Strategy,Data Integration Specialist,16,87816.0,3
+Data Quality and Operations,Data Operations Engineer,16,133431.0,1
+Data Quality and Operations,Data Operations Analyst,16,90906.0,2
+Data Quality and Operations,Data Operations Specialist,10,87634.0,3
+Data Science and Research,Director of Data Science,33,218775.0,1
+Data Science and Research,Data Science Manager,108,197123.0,2
+Data Science and Research,Principal Data Scientist,10,194090.0,3
+Leadership and Management,Data Analytics Lead,17,208873.0,1
+Leadership and Management,Head of Data,47,208791.0,2
+Leadership and Management,Data Product Manager,30,159530.0,3
+Machine Learning and AI,AI Architect,23,229721.0,1
+Machine Learning and AI,Machine Learning Software Engineer,13,212908.0,2
+Machine Learning and AI,ML Engineer,154,197928.0,3
