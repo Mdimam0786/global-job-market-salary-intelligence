@@ -1,0 +1,60 @@
+source,raw_value,role_family_name,role_category
+jobs_in_data_2024 (job_category),Data Science and Research,Data Science & Research,Data & Analytics
+jobs_in_data_2024 (job_category),BI and Visualization,Data Analysis & BI,Data & Analytics
+jobs_in_data_2024 (job_category),Data Architecture and Modeling,Data Architecture & Management,Data & Analytics
+jobs_in_data_2024 (job_category),Data Analysis,Data Analysis & BI,Data & Analytics
+jobs_in_data_2024 (job_category),Data Engineering,Data Engineering,Data & Analytics
+jobs_in_data_2024 (job_category),Leadership and Management,Engineering Management,Management & Leadership
+jobs_in_data_2024 (job_category),Data Quality and Operations,Data Engineering,Data & Analytics
+jobs_in_data_2024 (job_category),Machine Learning and AI,Machine Learning & AI,Data & Analytics
+jobs_in_data_2024 (job_category),Cloud and Database,DevOps & Cloud Infrastructure,Infrastructure & DevOps
+jobs_in_data_2024 (job_category),Data Management and Strategy,Data Architecture & Management,Data & Analytics
+levels_fyi (title),Product Manager,Product Management,Product & Design
+levels_fyi (title),Software Engineer,Software Engineering,Software Engineering
+levels_fyi (title),Software Engineering Manager,Engineering Management,Management & Leadership
+levels_fyi (title),Data Scientist,Data Science & Research,Data & Analytics
+levels_fyi (title),Solution Architect,Solutions Architecture,Infrastructure & DevOps
+levels_fyi (title),Technical Program Manager,Technical Program Management,Management & Leadership
+levels_fyi (title),Human Resources,HR & Recruiting,Business & Sales
+levels_fyi (title),Product Designer,Product Design & UX,Product & Design
+levels_fyi (title),Marketing,Sales & Marketing,Business & Sales
+levels_fyi (title),Business Analyst,Business Analysis,Business & Sales
+levels_fyi (title),Hardware Engineer,Hardware Engineering,Software Engineering
+levels_fyi (title),Sales,Sales & Marketing,Business & Sales
+levels_fyi (title),Recruiter,HR & Recruiting,Business & Sales
+levels_fyi (title),Mechanical Engineer,Hardware Engineering,Software Engineering
+levels_fyi (title),Management Consultant,Consulting,Business & Sales
+stackoverflow_2024 (DevType),"Developer, full-stack",Software Engineering,Software Engineering
+stackoverflow_2024 (DevType),"Developer, back-end",Backend Engineering,Software Engineering
+stackoverflow_2024 (DevType),Student,Student,Research & Academia
+stackoverflow_2024 (DevType),"Developer, front-end",Frontend Engineering,Software Engineering
+stackoverflow_2024 (DevType),"Developer, desktop or enterprise applications",Software Engineering,Software Engineering
+stackoverflow_2024 (DevType),Other (please specify):,Other / Unspecified,Other / Unspecified
+stackoverflow_2024 (DevType),"Developer, mobile",Mobile Engineering,Software Engineering
+stackoverflow_2024 (DevType),"Developer, embedded applications or devices",Embedded & Systems Engineering,Software Engineering
+stackoverflow_2024 (DevType),Engineering manager,Engineering Management,Management & Leadership
+stackoverflow_2024 (DevType),Academic researcher,Academic Research,Research & Academia
+stackoverflow_2024 (DevType),Data engineer,Data Engineering,Data & Analytics
+stackoverflow_2024 (DevType),Data scientist or machine learning specialist,Data Science & Research,Data & Analytics
+stackoverflow_2024 (DevType),DevOps specialist,DevOps & Cloud Infrastructure,Infrastructure & DevOps
+stackoverflow_2024 (DevType),Research & Development role,Academic Research,Research & Academia
+stackoverflow_2024 (DevType),"Senior Executive (C-Suite, VP, etc.)",Executive Leadership,Management & Leadership
+stackoverflow_2024 (DevType),"Developer, game or graphics",Game & Graphics Engineering,Software Engineering
+stackoverflow_2024 (DevType),Cloud infrastructure engineer,DevOps & Cloud Infrastructure,Infrastructure & DevOps
+stackoverflow_2024 (DevType),System administrator,System Administration,Infrastructure & DevOps
+stackoverflow_2024 (DevType),"Developer, AI",Machine Learning & AI,Data & Analytics
+stackoverflow_2024 (DevType),"Developer, QA or test",QA & Test Engineering,Software Engineering
+stackoverflow_2024 (DevType),Data or business analyst,Data Analysis & BI,Data & Analytics
+stackoverflow_2024 (DevType),Project manager,Project Management,Management & Leadership
+stackoverflow_2024 (DevType),Security professional,Security Engineering,Infrastructure & DevOps
+stackoverflow_2024 (DevType),Educator,Academic Research,Research & Academia
+stackoverflow_2024 (DevType),Scientist,Academic Research,Research & Academia
+stackoverflow_2024 (DevType),"Engineer, site reliability",Site Reliability Engineering,Infrastructure & DevOps
+stackoverflow_2024 (DevType),Product manager,Product Management,Product & Design
+stackoverflow_2024 (DevType),Blockchain,Blockchain Engineering,Software Engineering
+stackoverflow_2024 (DevType),Developer Experience,Software Engineering,Software Engineering
+stackoverflow_2024 (DevType),Designer,Product Design & UX,Product & Design
+stackoverflow_2024 (DevType),Database administrator,Database Administration,Infrastructure & DevOps
+stackoverflow_2024 (DevType),Developer Advocate,Developer Advocacy,Product & Design
+stackoverflow_2024 (DevType),Marketing or sales professional,Sales & Marketing,Business & Sales
+stackoverflow_2024 (DevType),Hardware Engineer,Hardware Engineering,Software Engineering

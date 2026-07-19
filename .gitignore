@@ -1,6 +1,11 @@
 # Data (large files -- document how to obtain them instead of committing)
+# Raw datasets stay local
 data/raw/*.csv
-data/processed/*.csv
+!data/raw/.gitkeep
+
+# Allow processed datasets for Streamlit deployment
+!data/processed/*.csv
+!data/processed/.gitkeep
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 # SQLite databases

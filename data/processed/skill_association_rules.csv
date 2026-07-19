@@ -1,0 +1,781 @@
+﻿skill_a,skill_b,co_occurrence_count,support,confidence_a_to_b,lift
+NuGet,Visual Studio Solution,4413,0.0735,0.5071,3.659
+C#,NuGet,8056,0.1342,0.4937,3.404
+Microsoft SQL Server,NuGet,5819,0.097,0.4383,3.022
+Maven (build tool),Gradle,3481,0.058,0.4127,2.98
+Express,Next.js,3692,0.0615,0.4286,2.963
+Webpack,Yarn,5021,0.0837,0.5036,2.96
+PHP,MariaDB,4793,0.0799,0.4377,2.921
+Java,Maven (build tool),7451,0.1242,0.4085,2.906
+C,C++,8134,0.1355,0.6676,2.897
+C#,Visual Studio Solution,6344,0.1057,0.3888,2.806
+Next.js,React,7465,0.1244,0.8599,2.692
+Express,Node.js,7577,0.1263,0.8796,2.67
+Vite,Webpack,4735,0.0789,0.4383,2.638
+Microsoft SQL Server,Visual Studio Solution,4783,0.0797,0.3603,2.6
+PowerShell,NuGet,3132,0.0522,0.3761,2.593
+Next.js,Yarn,3801,0.0633,0.4379,2.574
+PHP,jQuery,4810,0.0802,0.4392,2.539
+MongoDB,Express,4691,0.0782,0.3607,2.512
+Microsoft Azure,NuGet,4649,0.0775,0.3618,2.495
+C#,Microsoft SQL Server,8944,0.149,0.5481,2.478
+Express,Vite,3820,0.0637,0.4435,2.463
+Java,Gradle,6137,0.1023,0.3365,2.43
+Next.js,Vite,3793,0.0632,0.4369,2.427
+Next.js,Webpack,3500,0.0583,0.4032,2.427
+Express,Webpack,3453,0.0575,0.4009,2.413
+Vite,Yarn,4422,0.0737,0.4093,2.406
+Microsoft SQL Server,Microsoft Azure,6799,0.1133,0.5122,2.392
+C,Make,5313,0.0885,0.4361,2.324
+PowerShell,Visual Studio Solution,2674,0.0446,0.3211,2.317
+Express,Yarn,3337,0.0556,0.3874,2.277
+Next.js,Node.js,6502,0.1084,0.749,2.273
+PowerShell,Microsoft SQL Server,4129,0.0688,0.4958,2.241
+Redis,Kubernetes,4051,0.0675,0.3872,2.212
+Express,React,6083,0.1014,0.7062,2.211
+PHP,MySQL,8348,0.1391,0.7623,2.168
+React,Webpack,6761,0.1127,0.3527,2.123
+React,Yarn,6879,0.1146,0.3589,2.11
+PowerShell,Microsoft Azure,3747,0.0624,0.4499,2.101
+C#,PowerShell,4722,0.0787,0.2894,2.085
+React,Vite,7180,0.1196,0.3746,2.081
+MariaDB,jQuery,3223,0.0537,0.3585,2.072
+TypeScript,Next.js,6915,0.1152,0.2987,2.065
+Microsoft Azure,Visual Studio Solution,3675,0.0612,0.286,2.064
+MongoDB,Next.js,3847,0.0641,0.2958,2.045
+MySQL,MariaDB,6368,0.1061,0.3018,2.014
+C#,Microsoft Azure,6934,0.1155,0.4249,1.984
+TypeScript,Vite,8239,0.1373,0.3559,1.977
+TypeScript,Express,6522,0.1087,0.2817,1.963
+C++,Make,5041,0.084,0.3646,1.943
+TypeScript,Webpack,7451,0.1242,0.3219,1.937
+Homebrew,Kubernetes,4094,0.0682,0.3389,1.936
+Node.js,Webpack,6347,0.1058,0.321,1.932
+npm,Webpack,8549,0.1425,0.3182,1.915
+Node.js,Vite,6779,0.113,0.3429,1.904
+Homebrew,Yarn,3912,0.0652,0.3238,1.903
+TypeScript,Yarn,7471,0.1245,0.3227,1.897
+Node.js,React,11856,0.1976,0.5996,1.877
+Node.js,Yarn,6307,0.1051,0.319,1.875
+Express,npm,7226,0.1204,0.8389,1.874
+Google Cloud,Kubernetes,3796,0.0633,0.3271,1.869
+npm,Vite,9021,0.1503,0.3358,1.865
+Kubernetes,Maven (build tool),2728,0.0455,0.2597,1.848
+npm,Yarn,8388,0.1398,0.3122,1.835
+Redis,Yarn,3257,0.0543,0.3113,1.83
+Redis,Express,2734,0.0456,0.2613,1.82
+TypeScript,React,13386,0.2231,0.5782,1.81
+Microsoft SQL Server,jQuery,4128,0.0688,0.311,1.798
+MongoDB,Redis,4076,0.0679,0.3134,1.797
+MongoDB,Node.js,7697,0.1283,0.5918,1.796
+Docker,Kubernetes,9116,0.1519,0.312,1.783
+Next.js,npm,6906,0.1151,0.7955,1.777
+Redis,Homebrew,3713,0.0619,0.3549,1.763
+Redis,Webpack,3063,0.051,0.2927,1.762
+Pip,Make,5799,0.0966,0.3302,1.76
+Redis,MariaDB,2756,0.0459,0.2634,1.758
+MySQL,jQuery,6408,0.1068,0.3037,1.756
+TypeScript,Node.js,13263,0.221,0.5729,1.739
+Python,Pip,15616,0.2602,0.5083,1.737
+Node.js,npm,15350,0.2558,0.7764,1.734
+jQuery,Webpack,2966,0.0494,0.2857,1.72
+Bash/Shell (all shells),Make,6572,0.1095,0.322,1.716
+jQuery,NuGet,2573,0.0429,0.2479,1.709
+PostgreSQL,Redis,7533,0.1255,0.295,1.692
+Homebrew,Webpack,3386,0.0564,0.2803,1.687
+SQLite,MariaDB,4362,0.0727,0.2512,1.677
+Redis,Google Cloud,3389,0.0565,0.3239,1.675
+MongoDB,React,6943,0.1157,0.5338,1.671
+React,npm,14327,0.2387,0.7475,1.67
+MongoDB,Yarn,3686,0.0614,0.2834,1.666
+Redis,Amazon Web Services (AWS),6428,0.1071,0.6144,1.661
+TypeScript,npm,17143,0.2857,0.7405,1.654
+PowerShell,jQuery,2381,0.0397,0.2859,1.653
+Google Cloud,Express,2753,0.0459,0.2372,1.653
+Bash/Shell (all shells),PowerShell,4673,0.0779,0.2289,1.65
+Amazon Web Services (AWS),Kubernetes,6384,0.1064,0.2877,1.644
+PHP,Webpack,2992,0.0499,0.2732,1.644
+Homebrew,Make,3714,0.0619,0.3074,1.639
+Next.js,Homebrew,2865,0.0477,0.33,1.639
+Redis,Next.js,2472,0.0412,0.2363,1.633
+MongoDB,Webpack,3515,0.0586,0.2702,1.627
+MongoDB,Vite,3801,0.0633,0.2922,1.623
+Google Cloud,Next.js,2725,0.0454,0.2348,1.623
+Redis,Docker,8233,0.1372,0.7869,1.616
+Microsoft Azure,Kubernetes,3614,0.0602,0.2812,1.607
+MongoDB,Google Cloud,4018,0.067,0.3089,1.597
+jQuery,Visual Studio Solution,2289,0.0381,0.2205,1.591
+Kubernetes,Gradle,2311,0.0385,0.22,1.589
+MongoDB,MariaDB,3096,0.0516,0.238,1.589
+Homebrew,Gradle,2634,0.0439,0.218,1.574
+Google Cloud,Homebrew,3662,0.061,0.3156,1.567
+PostgreSQL,Kubernetes,7002,0.1167,0.2742,1.567
+Node.js,jQuery,5353,0.0892,0.2707,1.565
+MariaDB,Webpack,2334,0.0389,0.2596,1.562
+HTML/CSS,jQuery,8594,0.1432,0.2701,1.561
+Express,jQuery,2326,0.0388,0.27,1.561
+Amazon Web Services (AWS),Homebrew,6970,0.1161,0.3141,1.56
+MongoDB,MySQL,7103,0.1184,0.5461,1.553
+SQL,Microsoft SQL Server,10539,0.1756,0.3435,1.553
+Kubernetes,Make,3055,0.0509,0.2909,1.55
+Kubernetes,Yarn,2758,0.046,0.2626,1.544
+Express,Homebrew,2669,0.0445,0.3098,1.539
+MongoDB,Kubernetes,3500,0.0583,0.2691,1.537
+MySQL,Express,4641,0.0773,0.22,1.532
+Homebrew,Vite,3328,0.0555,0.2755,1.53
+Redis,Vite,2879,0.048,0.2752,1.528
+HTML/CSS,PHP,8820,0.147,0.2772,1.519
+Google Cloud,Yarn,2992,0.0499,0.2578,1.515
+Amazon Web Services (AWS),Google Cloud,6487,0.1081,0.2923,1.512
+MariaDB,Express,1950,0.0325,0.2169,1.511
+JavaScript,Express,8119,0.1353,0.2166,1.509
+MariaDB,Yarn,2306,0.0384,0.2565,1.508
+PHP,Vite,2972,0.0495,0.2714,1.507
+PHP,Yarn,2796,0.0466,0.2553,1.501
+Amazon Web Services (AWS),Yarn,5658,0.0943,0.255,1.499
+PHP,Express,2354,0.0392,0.215,1.497
+Google Cloud,Gradle,2401,0.04,0.2069,1.494
+HTML/CSS,Webpack,7859,0.131,0.247,1.487
+PHP,Redis,2838,0.0473,0.2592,1.486
+jQuery,Yarn,2623,0.0437,0.2527,1.485
+SQL,jQuery,7874,0.1312,0.2566,1.484
+JavaScript,Webpack,9238,0.1539,0.2464,1.483
+JavaScript,jQuery,9611,0.1602,0.2563,1.482
+HTML/CSS,Vite,8476,0.1412,0.2664,1.48
+TypeScript,MongoDB,7413,0.1235,0.3202,1.477
+PostgreSQL,Next.js,5440,0.0907,0.213,1.473
+Docker,Homebrew,8659,0.1443,0.2963,1.472
+Yarn,Gradle,2079,0.0346,0.2036,1.471
+Redis,Make,2888,0.0481,0.276,1.471
+PHP,SQL,8230,0.1371,0.7515,1.47
+C#,jQuery,4148,0.0691,0.2542,1.469
+MariaDB,Maven (build tool),1855,0.0309,0.2063,1.468
+HTML/CSS,Express,6691,0.1115,0.2103,1.465
+Bash/Shell (all shells),C,6066,0.1011,0.2972,1.464
+Redis,React,4893,0.0815,0.4676,1.464
+MySQL,Redis,5381,0.0897,0.255,1.463
+JavaScript,Vite,9868,0.1644,0.2632,1.462
+MongoDB,npm,8504,0.1417,0.6538,1.46
+C,Pip,5207,0.0868,0.4274,1.46
+PHP,SQLite,4625,0.0771,0.4223,1.459
+JavaScript,Next.js,7914,0.1319,0.2111,1.459
+HTML/CSS,Next.js,6688,0.1114,0.2102,1.453
+JavaScript,Node.js,17932,0.2988,0.4783,1.452
+Java,C,5377,0.0896,0.2948,1.452
+SQLite,jQuery,4360,0.0727,0.2511,1.451
+React,Homebrew,5592,0.0932,0.2918,1.449
+MongoDB,jQuery,3259,0.0543,0.2506,1.448
+Redis,Node.js,4980,0.083,0.476,1.445
+Amazon Web Services (AWS),Next.js,4636,0.0773,0.2089,1.444
+PostgreSQL,Yarn,6274,0.1046,0.2457,1.444
+MariaDB,Vite,2336,0.0389,0.2598,1.443
+PowerShell,SQL,6142,0.1024,0.7375,1.442
+PostgreSQL,Express,5284,0.0881,0.2069,1.442
+Amazon Web Services (AWS),Express,4591,0.0765,0.2069,1.441
+TypeScript,Redis,5813,0.0969,0.2511,1.44
+C++,Visual Studio Solution,2750,0.0458,0.1989,1.435
+SQL,MariaDB,6584,0.1097,0.2146,1.432
+Microsoft Azure,jQuery,3179,0.053,0.2474,1.43
+MariaDB,Gradle,1780,0.0297,0.198,1.43
+C,SQLite,5043,0.084,0.4139,1.43
+MariaDB,Make,2410,0.0402,0.268,1.429
+PHP,Node.js,5153,0.0859,0.4706,1.428
+MySQL,SQLite,8705,0.1451,0.4126,1.426
+SQLite,Redis,4319,0.072,0.2487,1.426
+Homebrew,npm,7707,0.1284,0.6379,1.425
+Bash/Shell (all shells),Pip,8512,0.1418,0.417,1.425
+MongoDB,Gradle,2564,0.0427,0.1971,1.423
+Bash/Shell (all shells),Kubernetes,5075,0.0846,0.2486,1.421
+MariaDB,Node.js,4210,0.0702,0.4682,1.421
+MongoDB,Maven (build tool),2597,0.0433,0.1997,1.42
+JavaScript,React,16995,0.2832,0.4533,1.419
+Homebrew,Pip,5010,0.0835,0.4147,1.417
+Google Cloud,Node.js,5415,0.0902,0.4666,1.416
+Docker,Yarn,7037,0.1173,0.2408,1.416
+PostgreSQL,Amazon Web Services (AWS),13360,0.2226,0.5232,1.415
+SQLite,Pip,7189,0.1198,0.414,1.415
+MongoDB,Amazon Web Services (AWS),6795,0.1132,0.5224,1.413
+Redis,npm,6620,0.1103,0.6327,1.413
+HTML/CSS,Node.js,14795,0.2465,0.465,1.411
+JavaScript,Yarn,8999,0.15,0.24,1.411
+Kubernetes,Webpack,2463,0.041,0.2345,1.411
+PostgreSQL,Homebrew,7254,0.1209,0.2841,1.411
+C++,Pip,5706,0.0951,0.4127,1.41
+HTML/CSS,JavaScript,28029,0.4671,0.881,1.41
+JavaScript,PHP,9647,0.1608,0.2573,1.41
+Amazon Web Services (AWS),Webpack,5195,0.0866,0.2341,1.409
+SQLite,Make,4587,0.0764,0.2642,1.408
+Python,C,8769,0.1461,0.2855,1.406
+Redis,jQuery,2536,0.0423,0.2424,1.401
+PHP,MongoDB,3318,0.0553,0.303,1.398
+Google Cloud,Webpack,2694,0.0449,0.2321,1.397
+jQuery,npm,6486,0.1081,0.6248,1.396
+PHP,Next.js,2212,0.0369,0.202,1.396
+JavaScript,TypeScript,20191,0.3365,0.5385,1.396
+PHP,PowerShell,2120,0.0353,0.1936,1.395
+PowerShell,MariaDB,1741,0.029,0.2091,1.395
+SQL,NuGet,6198,0.1033,0.202,1.393
+Make,Gradle,2169,0.0361,0.1926,1.391
+Python,Make,8001,0.1333,0.2605,1.388
+PostgreSQL,Docker,17240,0.2873,0.6751,1.387
+Docker,Webpack,6730,0.1121,0.2303,1.386
+PostgreSQL,Google Cloud,6842,0.114,0.2679,1.385
+JavaScript,npm,23225,0.387,0.6195,1.384
+Google Cloud,Microsoft Azure,3435,0.0572,0.296,1.382
+MariaDB,Google Cloud,2393,0.0399,0.2662,1.376
+Express,Gradle,1639,0.0273,0.1903,1.374
+PostgreSQL,Maven (build tool),4933,0.0822,0.1932,1.374
+HTML/CSS,React,13946,0.2324,0.4383,1.372
+Python,C++,9712,0.1618,0.3162,1.372
+Docker,Maven (build tool),5632,0.0939,0.1928,1.371
+HTML/CSS,Yarn,7419,0.1236,0.2332,1.371
+npm,NuGet,5339,0.089,0.1987,1.37
+HTML/CSS,TypeScript,16817,0.2802,0.5286,1.37
+MySQL,Node.js,9510,0.1585,0.4507,1.368
+PowerShell,SQLite,3294,0.0549,0.3955,1.367
+MySQL,Google Cloud,5573,0.0929,0.2641,1.366
+MySQL,Maven (build tool),4049,0.0675,0.1919,1.365
+MySQL,Next.js,4163,0.0694,0.1973,1.364
+SQLite,Express,3397,0.0566,0.1956,1.363
+PHP,npm,6677,0.1113,0.6097,1.362
+Make,Maven (build tool),2155,0.0359,0.1914,1.362
+Redis,Maven (build tool),2003,0.0334,0.1914,1.362
+SQLite,Gradle,3275,0.0546,0.1886,1.362
+Node.js,Homebrew,5412,0.0902,0.2737,1.36
+Bash/Shell (all shells),Homebrew,5589,0.0931,0.2738,1.36
+Bash/Shell (all shells),MariaDB,4160,0.0693,0.2038,1.36
+PostgreSQL,Vite,6252,0.1042,0.2448,1.36
+SQL,MySQL,14663,0.2443,0.4779,1.359
+Express,Kubernetes,2047,0.0341,0.2376,1.358
+Docker,Make,7438,0.1239,0.2546,1.357
+Amazon Web Services (AWS),Docker,14661,0.2443,0.6607,1.357
+Java,C++,5699,0.095,0.3125,1.356
+Google Cloud,React,5027,0.0838,0.4332,1.356
+Amazon Web Services (AWS),React,9608,0.1601,0.433,1.356
+Redis,Pip,4150,0.0692,0.3966,1.355
+Express,Docker,5667,0.0944,0.6579,1.351
+MongoDB,PostgreSQL,7470,0.1245,0.5743,1.35
+HTML/CSS,npm,19218,0.3203,0.604,1.349
+Bash/Shell (all shells),Redis,4802,0.08,0.2353,1.349
+MySQL,Yarn,4839,0.0806,0.2293,1.348
+Java,MongoDB,5325,0.0887,0.292,1.347
+Java,Kubernetes,4297,0.0716,0.2356,1.346
+TypeScript,Homebrew,6254,0.1042,0.2702,1.342
+Kubernetes,Pip,4121,0.0687,0.3924,1.341
+MariaDB,Next.js,1743,0.029,0.1939,1.34
+HTML/CSS,MariaDB,6375,0.1062,0.2004,1.337
+Google Cloud,Pip,4541,0.0757,0.3913,1.337
+SQL,Redis,7146,0.1191,0.2329,1.336
+MySQL,Webpack,4683,0.078,0.222,1.336
+HTML/CSS,PowerShell,5890,0.0982,0.1851,1.334
+MongoDB,SQLite,5014,0.0836,0.3855,1.332
+Homebrew,Maven (build tool),2262,0.0377,0.1872,1.332
+MariaDB,npm,5360,0.0893,0.5962,1.332
+Java,MySQL,8536,0.1422,0.468,1.331
+Next.js,Kubernetes,2017,0.0336,0.2323,1.328
+PowerShell,Node.js,3641,0.0607,0.4372,1.327
+MariaDB,Docker,5799,0.0966,0.645,1.325
+PostgreSQL,React,10796,0.1799,0.4228,1.324
+PHP,Google Cloud,2803,0.0467,0.256,1.324
+PostgreSQL,Webpack,5611,0.0935,0.2197,1.323
+Google Cloud,jQuery,2656,0.0443,0.2289,1.323
+C++,SQLite,5291,0.0882,0.3827,1.322
+Docker,Vite,6952,0.1158,0.2379,1.322
+MariaDB,Kubernetes,2078,0.0346,0.2311,1.321
+Next.js,Docker,5582,0.093,0.643,1.321
+SQLite,Google Cloud,4427,0.0738,0.2549,1.318
+Webpack,Gradle,1818,0.0303,0.1823,1.317
+C++,PowerShell,2528,0.0421,0.1828,1.317
+MongoDB,Docker,8339,0.139,0.6411,1.317
+PostgreSQL,SQLite,9698,0.1616,0.3798,1.312
+Amazon Web Services (AWS),Maven (build tool),4091,0.0682,0.1844,1.312
+C,MariaDB,2394,0.0399,0.1965,1.311
+React,jQuery,4347,0.0724,0.2268,1.311
+Amazon Web Services (AWS),Node.js,9581,0.1597,0.4318,1.31
+Pip,Gradle,3186,0.0531,0.1814,1.31
+npm,Gradle,4872,0.0812,0.1813,1.31
+Bash/Shell (all shells),Python,13692,0.2282,0.6708,1.31
+SQLite,Vite,4089,0.0681,0.2355,1.308
+Docker,Pip,11185,0.1864,0.3828,1.308
+React,Kubernetes,4382,0.073,0.2286,1.306
+npm,Maven (build tool),4929,0.0821,0.1835,1.305
+Google Cloud,Docker,7369,0.1228,0.635,1.304
+C,PowerShell,2203,0.0367,0.1808,1.303
+TypeScript,NuGet,4373,0.0729,0.1889,1.302
+PowerShell,Webpack,1800,0.03,0.2161,1.301
+Java,MariaDB,3555,0.0592,0.1949,1.301
+C#,C++,4889,0.0815,0.2996,1.3
+SQL,Microsoft Azure,8535,0.1422,0.2782,1.299
+Bash/Shell (all shells),Docker,12896,0.2149,0.6318,1.298
+Google Cloud,Make,2824,0.0471,0.2433,1.297
+TypeScript,PostgreSQL,12770,0.2128,0.5516,1.296
+Redis,Gradle,1875,0.0312,0.1792,1.294
+Node.js,Gradle,3541,0.059,0.1791,1.293
+SQL,SQLite,11484,0.1914,0.3743,1.293
+Webpack,NuGet,1868,0.0311,0.1874,1.292
+Google Cloud,Maven (build tool),2106,0.0351,0.1815,1.291
+JavaScript,MongoDB,10490,0.1748,0.2798,1.291
+Docker,Gradle,5222,0.087,0.1787,1.291
+jQuery,Maven (build tool),1883,0.0314,0.1814,1.29
+TypeScript,PowerShell,4140,0.069,0.1788,1.289
+Next.js,jQuery,1936,0.0323,0.223,1.289
+MySQL,Gradle,3762,0.0627,0.1783,1.288
+Docker,npm,16852,0.2808,0.5767,1.288
+MySQL,Vite,4886,0.0814,0.2316,1.286
+TypeScript,Kubernetes,5206,0.0868,0.2249,1.285
+Redis,Microsoft Azure,2879,0.048,0.2752,1.285
+Express,Pip,3236,0.0539,0.3757,1.284
+C#,SQL,10707,0.1784,0.6561,1.283
+JavaScript,MariaDB,7180,0.1196,0.1915,1.278
+MongoDB,Microsoft Azure,3559,0.0593,0.2736,1.278
+MongoDB,Homebrew,3343,0.0557,0.257,1.277
+SQLite,NuGet,3211,0.0535,0.1849,1.275
+MariaDB,Pip,3351,0.0558,0.3727,1.274
+MongoDB,Pip,4848,0.0808,0.3727,1.274
+PowerShell,Kubernetes,1854,0.0309,0.2226,1.272
+npm,Pip,9998,0.1666,0.3721,1.272
+Bash/Shell (all shells),C++,5978,0.0996,0.2929,1.271
+Microsoft Azure,Webpack,2714,0.0452,0.2112,1.271
+Pip,Maven (build tool),3137,0.0523,0.1786,1.271
+MySQL,Amazon Web Services (AWS),9898,0.1649,0.4691,1.269
+MySQL,npm,11977,0.1996,0.5677,1.268
+PostgreSQL,Node.js,10669,0.1778,0.4178,1.268
+Google Cloud,Vite,2647,0.0441,0.2281,1.267
+PostgreSQL,Gradle,4479,0.0746,0.1754,1.267
+TypeScript,Docker,14261,0.2376,0.616,1.265
+Kubernetes,npm,5950,0.0992,0.5665,1.265
+TypeScript,Amazon Web Services (AWS),10823,0.1804,0.4675,1.264
+HTML/CSS,MySQL,14128,0.2354,0.4441,1.263
+SQLite,Node.js,7222,0.1203,0.4159,1.262
+SQL,Visual Studio Solution,5359,0.0893,0.1747,1.261
+React,Docker,11755,0.1959,0.6133,1.26
+SQLite,Next.js,3165,0.0527,0.1823,1.26
+SQL,PostgreSQL,16453,0.2742,0.5362,1.26
+React,Gradle,3343,0.0557,0.1744,1.259
+MariaDB,Homebrew,2279,0.038,0.2535,1.259
+Next.js,Gradle,1511,0.0252,0.1741,1.257
+SQLite,Yarn,3714,0.0619,0.2139,1.257
+Amazon Web Services (AWS),Gradle,3863,0.0644,0.1741,1.257
+Make,Yarn,2404,0.0401,0.2135,1.255
+PowerShell,Pip,3055,0.0509,0.3668,1.254
+MySQL,React,8449,0.1408,0.4004,1.254
+Node.js,Kubernetes,4340,0.0723,0.2195,1.254
+PostgreSQL,MariaDB,4795,0.0799,0.1878,1.253
+SQL,Maven (build tool),5401,0.09,0.176,1.252
+PowerShell,MongoDB,2260,0.0377,0.2714,1.252
+SQLite,Microsoft SQL Server,4807,0.0801,0.2768,1.251
+Node.js,Docker,12039,0.2006,0.6089,1.251
+C,Gradle,2111,0.0352,0.1733,1.251
+Pip,Yarn,3738,0.0623,0.2129,1.251
+HTML/CSS,MongoDB,8630,0.1438,0.2712,1.251
+PowerShell,npm,4653,0.0775,0.5587,1.248
+Bash/Shell (all shells),SQLite,7355,0.1226,0.3603,1.245
+Google Cloud,npm,6465,0.1077,0.5571,1.244
+Python,SQLite,11046,0.1841,0.3596,1.243
+PHP,React,4344,0.0724,0.3967,1.242
+C,PHP,2761,0.046,0.2266,1.242
+Amazon Web Services (AWS),npm,12334,0.2055,0.5558,1.241
+TypeScript,Microsoft Azure,6151,0.1025,0.2657,1.241
+PostgreSQL,Pip,9276,0.1546,0.3633,1.241
+HTML/CSS,SQL,20146,0.3357,0.6332,1.238
+Bash/Shell (all shells),Maven (build tool),3548,0.0591,0.1738,1.237
+TypeScript,Google Cloud,5532,0.0922,0.239,1.236
+Java,Google Cloud,4351,0.0725,0.2386,1.234
+TypeScript,Gradle,3955,0.0659,0.1708,1.234
+JavaScript,MySQL,16264,0.271,0.4338,1.234
+PostgreSQL,npm,14088,0.2348,0.5517,1.232
+SQLite,Homebrew,4296,0.0716,0.2474,1.229
+Microsoft Azure,Docker,7682,0.128,0.5978,1.228
+jQuery,Vite,2287,0.0381,0.2203,1.224
+Java,jQuery,3859,0.0643,0.2116,1.223
+JavaScript,PowerShell,6351,0.1058,0.1694,1.221
+MariaDB,Amazon Web Services (AWS),4053,0.0675,0.4508,1.219
+PostgreSQL,Make,5831,0.0972,0.2283,1.217
+Amazon Web Services (AWS),Vite,4862,0.081,0.2191,1.217
+SQLite,Webpack,3509,0.0585,0.2021,1.216
+JavaScript,Redis,7942,0.1323,0.2118,1.215
+Yarn,Maven (build tool),1744,0.0291,0.1708,1.215
+HTML/CSS,NuGet,5589,0.0931,0.1757,1.211
+PowerShell,Express,1448,0.0241,0.1739,1.211
+SQL,Express,5328,0.0888,0.1737,1.21
+jQuery,Gradle,1740,0.029,0.1676,1.21
+Bash/Shell (all shells),Gradle,3413,0.0569,0.1672,1.207
+SQL,Kubernetes,6482,0.108,0.2113,1.207
+C++,Gradle,2307,0.0384,0.1668,1.205
+Node.js,Pip,6970,0.1161,0.3525,1.205
+Microsoft Azure,npm,6906,0.1151,0.5374,1.2
+PowerShell,MySQL,3511,0.0585,0.4216,1.199
+Microsoft SQL Server,MariaDB,2384,0.0397,0.1796,1.199
+C#,SQLite,5650,0.0942,0.3462,1.197
+Bash/Shell (all shells),Amazon Web Services (AWS),9025,0.1504,0.4421,1.196
+Python,Google Cloud,7102,0.1183,0.2312,1.195
+PowerShell,Maven (build tool),1399,0.0233,0.168,1.195
+Node.js,Maven (build tool),3318,0.0553,0.1678,1.194
+Bash/Shell (all shells),Google Cloud,4710,0.0785,0.2307,1.193
+Amazon Web Services (AWS),jQuery,4574,0.0762,0.2061,1.192
+Java,PostgreSQL,9254,0.1542,0.5074,1.192
+Bash/Shell (all shells),PostgreSQL,10346,0.1724,0.5069,1.191
+Amazon Web Services (AWS),Pip,7724,0.1287,0.3481,1.189
+MySQL,Microsoft SQL Server,5545,0.0924,0.2628,1.188
+TypeScript,MariaDB,4120,0.0687,0.178,1.188
+Java,SQL,11079,0.1846,0.6074,1.188
+Amazon Web Services (AWS),Microsoft Azure,5634,0.0939,0.2539,1.186
+HTML/CSS,SQLite,10908,0.1818,0.3428,1.185
+HTML/CSS,Microsoft SQL Server,8337,0.1389,0.262,1.185
+Vite,Pip,3745,0.0624,0.3466,1.184
+SQLite,Docker,10007,0.1668,0.5763,1.184
+MariaDB,React,3397,0.0566,0.3778,1.183
+SQLite,npm,9181,0.153,0.5287,1.181
+Java,Node.js,7099,0.1183,0.3892,1.181
+Python,PowerShell,5035,0.0839,0.1639,1.181
+Vite,Gradle,1767,0.0294,0.1636,1.181
+Java,PHP,3930,0.0655,0.2155,1.181
+Kubernetes,NuGet,1799,0.03,0.1713,1.181
+SQL,Node.js,11936,0.1989,0.389,1.181
+SQLite,Microsoft Azure,4387,0.0731,0.2526,1.18
+Amazon Web Services (AWS),Make,4911,0.0818,0.2213,1.18
+SQL,Webpack,6010,0.1002,0.1959,1.179
+MySQL,Homebrew,5010,0.0835,0.2375,1.179
+JavaScript,SQL,22576,0.3762,0.6022,1.178
+SQL,Google Cloud,6986,0.1164,0.2277,1.177
+Java,PowerShell,2979,0.0496,0.1633,1.177
+Next.js,Pip,2989,0.0498,0.3443,1.177
+C,Visual Studio Solution,1985,0.0331,0.1629,1.176
+Java,Express,3077,0.0513,0.1687,1.175
+TypeScript,jQuery,4703,0.0784,0.2032,1.174
+PowerShell,Redis,1704,0.0284,0.2046,1.174
+TypeScript,PHP,4956,0.0826,0.2141,1.173
+Express,Maven (build tool),1419,0.0236,0.1647,1.172
+PowerShell,Google Cloud,1888,0.0315,0.2267,1.172
+SQL,Yarn,6115,0.1019,0.1993,1.172
+Bash/Shell (all shells),Yarn,4066,0.0678,0.1992,1.171
+Bash/Shell (all shells),SQL,12225,0.2037,0.5989,1.171
+Microsoft Azure,Node.js,4952,0.0825,0.3854,1.17
+Webpack,Maven (build tool),1639,0.0273,0.1644,1.17
+PowerShell,Docker,4745,0.0791,0.5698,1.17
+PHP,Amazon Web Services (AWS),4735,0.0789,0.4324,1.169
+SQL,npm,16038,0.2673,0.5227,1.168
+MySQL,Kubernetes,4311,0.0718,0.2043,1.167
+C++,MariaDB,2418,0.0403,0.1749,1.167
+PostgreSQL,MySQL,10482,0.1747,0.4105,1.167
+TypeScript,C#,7342,0.1223,0.3171,1.166
+HTML/CSS,C#,10085,0.1681,0.317,1.166
+MySQL,Pip,7178,0.1196,0.3402,1.163
+PHP,Homebrew,2563,0.0427,0.234,1.163
+Bash/Shell (all shells),Node.js,7815,0.1302,0.3829,1.162
+Bash/Shell (all shells),Java,7212,0.1202,0.3533,1.162
+MySQL,Docker,11920,0.1986,0.565,1.16
+SQLite,React,6429,0.1071,0.3702,1.159
+SQL,MongoDB,7708,0.1284,0.2512,1.159
+PowerShell,Yarn,1640,0.0273,0.1969,1.158
+Java,SQLite,6107,0.1018,0.3348,1.157
+TypeScript,SQL,13677,0.2279,0.5908,1.156
+React,Maven (build tool),3115,0.0519,0.1625,1.156
+C#,C,3828,0.0638,0.2346,1.155
+HTML/CSS,Redis,6402,0.1067,0.2012,1.154
+Bash/Shell (all shells),Webpack,3913,0.0652,0.1917,1.154
+TypeScript,SQLite,7726,0.1287,0.3337,1.153
+Bash/Shell (all shells),Express,3374,0.0562,0.1653,1.152
+JavaScript,NuGet,6263,0.1044,0.167,1.152
+PHP,Microsoft SQL Server,2789,0.0465,0.2547,1.151
+TypeScript,Maven (build tool),3744,0.0624,0.1617,1.151
+Java,Pip,6138,0.1023,0.3365,1.15
+SQL,Docker,17180,0.2863,0.5599,1.15
+SQL,Amazon Web Services (AWS),13042,0.2173,0.4251,1.149
+Microsoft Azure,Maven (build tool),2074,0.0346,0.1614,1.148
+C++,PHP,2896,0.0483,0.2094,1.148
+Python,Kubernetes,6168,0.1028,0.2008,1.147
+Express,Make,1851,0.0308,0.2149,1.145
+C,MySQL,4906,0.0818,0.4027,1.145
+C,MongoDB,3020,0.0503,0.2479,1.144
+Redis,NuGet,1736,0.0289,0.1659,1.144
+SQLite,Visual Studio Solution,2751,0.0458,0.1584,1.143
+MongoDB,Microsoft SQL Server,3285,0.0547,0.2526,1.142
+Microsoft Azure,Yarn,2494,0.0416,0.1941,1.141
+JavaScript,Homebrew,8586,0.1431,0.229,1.138
+JavaScript,Google Cloud,8249,0.1375,0.22,1.138
+JavaScript,SQLite,12333,0.2055,0.329,1.137
+SQL,Pip,10207,0.1701,0.3327,1.137
+TypeScript,MySQL,9240,0.154,0.3991,1.135
+PHP,Gradle,1721,0.0287,0.1572,1.135
+JavaScript,Microsoft SQL Server,9408,0.1568,0.2509,1.134
+SQL,Gradle,4820,0.0803,0.1571,1.134
+C,Maven (build tool),1942,0.0324,0.1594,1.134
+Bash/Shell (all shells),PHP,4220,0.0703,0.2067,1.133
+Java,Make,3876,0.0646,0.2125,1.133
+Microsoft Azure,React,4645,0.0774,0.3615,1.132
+Java,Amazon Web Services (AWS),7635,0.1272,0.4186,1.132
+Docker,NuGet,4796,0.0799,0.1641,1.132
+PHP,Docker,6030,0.1005,0.5506,1.131
+React,Pip,6339,0.1056,0.3307,1.13
+Python,PostgreSQL,14761,0.246,0.4805,1.129
+Java,Docker,10021,0.167,0.5494,1.128
+Python,MongoDB,7495,0.1249,0.244,1.126
+Node.js,NuGet,3230,0.0538,0.1634,1.126
+JavaScript,PostgreSQL,17941,0.299,0.4785,1.125
+SQL,Vite,6202,0.1034,0.2021,1.123
+Java,Redis,3568,0.0595,0.1956,1.122
+Bash/Shell (all shells),HTML/CSS,12139,0.2023,0.5947,1.122
+TypeScript,Microsoft SQL Server,5738,0.0956,0.2479,1.12
+Python,Docker,16756,0.2792,0.5455,1.12
+JavaScript,Amazon Web Services (AWS),15523,0.2587,0.414,1.12
+Java,React,6518,0.1086,0.3574,1.119
+Kubernetes,Vite,2115,0.0352,0.2014,1.118
+MariaDB,Microsoft Azure,2153,0.0359,0.2395,1.118
+Java,Python,10433,0.1739,0.572,1.117
+SQL,React,10943,0.1824,0.3567,1.117
+Python,Redis,5982,0.0997,0.1947,1.117
+C++,MongoDB,3345,0.0557,0.2419,1.116
+Java,npm,9113,0.1519,0.4996,1.116
+JavaScript,C#,11355,0.1892,0.3029,1.114
+PostgreSQL,Microsoft Azure,6093,0.1015,0.2386,1.114
+HTML/CSS,Microsoft Azure,7585,0.1264,0.2384,1.113
+HTML/CSS,Google Cloud,6843,0.114,0.2151,1.112
+Microsoft SQL Server,npm,6606,0.1101,0.4976,1.112
+Java,JavaScript,12671,0.2112,0.6947,1.112
+Webpack,Pip,3240,0.054,0.325,1.11
+Bash/Shell (all shells),npm,10138,0.1689,0.4967,1.109
+HTML/CSS,Visual Studio Solution,4888,0.0815,0.1536,1.109
+jQuery,Docker,5602,0.0934,0.5396,1.108
+C,Express,1937,0.0323,0.159,1.108
+Bash/Shell (all shells),TypeScript,8719,0.1453,0.4272,1.107
+SQLite,Amazon Web Services (AWS),7093,0.1182,0.4085,1.105
+Python,Homebrew,6831,0.1138,0.2224,1.105
+jQuery,Pip,3353,0.0559,0.323,1.104
+JavaScript,Microsoft Azure,8864,0.1477,0.2364,1.104
+C#,npm,8043,0.134,0.4929,1.101
+Python,MariaDB,5069,0.0845,0.165,1.101
+SQL,Homebrew,6797,0.1133,0.2215,1.1
+PostgreSQL,jQuery,4857,0.0809,0.1902,1.099
+Java,TypeScript,7731,0.1288,0.4239,1.099
+MongoDB,NuGet,2072,0.0345,0.1593,1.098
+Java,Homebrew,4030,0.0672,0.221,1.098
+PHP,PostgreSQL,5105,0.0851,0.4662,1.095
+JavaScript,Docker,19984,0.333,0.533,1.095
+Bash/Shell (all shells),Vite,4017,0.0669,0.1968,1.093
+PowerShell,Vite,1638,0.0273,0.1967,1.092
+SQL,Next.js,4848,0.0808,0.158,1.092
+PHP,Make,2244,0.0374,0.2049,1.092
+Microsoft SQL Server,Kubernetes,2536,0.0423,0.191,1.091
+PowerShell,Make,1705,0.0284,0.2047,1.091
+PowerShell,React,2901,0.0483,0.3483,1.091
+HTML/CSS,Homebrew,6980,0.1163,0.2194,1.09
+HTML/CSS,PostgreSQL,14757,0.2459,0.4638,1.09
+C++,MySQL,5299,0.0883,0.3832,1.09
+Yarn,NuGet,1609,0.0268,0.1576,1.087
+Microsoft Azure,Express,2004,0.0334,0.156,1.086
+HTML/CSS,Java,10496,0.1749,0.3299,1.085
+MySQL,Microsoft Azure,4896,0.0816,0.232,1.084
+Python,Amazon Web Services (AWS),12316,0.2052,0.4009,1.084
+npm,Make,5462,0.091,0.2033,1.084
+PowerShell,Gradle,1250,0.0208,0.1501,1.084
+SQLite,Kubernetes,3295,0.0549,0.1897,1.084
+C#,MongoDB,3835,0.0639,0.235,1.084
+Bash/Shell (all shells),MongoDB,4789,0.0798,0.2346,1.082
+Microsoft Azure,Next.js,2004,0.0334,0.156,1.078
+Webpack,Make,2015,0.0336,0.2021,1.077
+MongoDB,Make,2628,0.0438,0.202,1.077
+Python,SQL,16870,0.2811,0.5492,1.074
+PowerShell,Next.js,1293,0.0215,0.1553,1.073
+C,jQuery,2261,0.0377,0.1856,1.073
+Microsoft Azure,Homebrew,2772,0.0462,0.2157,1.072
+Redis,Microsoft SQL Server,2480,0.0413,0.237,1.071
+HTML/CSS,Pip,9975,0.1662,0.3135,1.071
+C,Google Cloud,2524,0.0421,0.2072,1.071
+React,NuGet,2973,0.0495,0.1551,1.07
+SQLite,Maven (build tool),2609,0.0435,0.1502,1.069
+C++,Maven (build tool),2073,0.0345,0.1499,1.067
+Bash/Shell (all shells),Microsoft Azure,4664,0.0777,0.2285,1.067
+JavaScript,Maven (build tool),5624,0.0937,0.15,1.067
+Node.js,Make,3956,0.0659,0.2001,1.066
+Microsoft SQL Server,Webpack,2351,0.0392,0.1771,1.066
+HTML/CSS,Docker,16513,0.2752,0.519,1.066
+C#,Node.js,5727,0.0954,0.351,1.065
+Bash/Shell (all shells),JavaScript,13582,0.2263,0.6654,1.065
+Python,MySQL,11500,0.1916,0.3744,1.065
+Bash/Shell (all shells),jQuery,3753,0.0625,0.1839,1.063
+JavaScript,Gradle,5510,0.0918,0.147,1.061
+C++,Google Cloud,2834,0.0472,0.205,1.06
+Microsoft SQL Server,Node.js,4630,0.0772,0.3488,1.059
+Bash/Shell (all shells),MySQL,7585,0.1264,0.3716,1.057
+Python,Gradle,4486,0.0748,0.146,1.055
+MySQL,Make,4175,0.0696,0.1979,1.055
+Python,Express,4649,0.0775,0.1513,1.054
+C,Node.js,4222,0.0704,0.3465,1.052
+PHP,Pip,3367,0.0561,0.3075,1.051
+jQuery,Homebrew,2195,0.0366,0.2114,1.05
+Microsoft SQL Server,Maven (build tool),1960,0.0327,0.1476,1.05
+JavaScript,Pip,11513,0.1919,0.3071,1.049
+C#,PHP,3121,0.052,0.1913,1.048
+HTML/CSS,Amazon Web Services (AWS),12320,0.2053,0.3872,1.047
+Java,Next.js,2757,0.0459,0.1512,1.045
+Java,Yarn,3241,0.054,0.1777,1.045
+JavaScript,Kubernetes,6844,0.114,0.1825,1.043
+Bash/Shell (all shells),React,6800,0.1133,0.3331,1.043
+C++,Express,2071,0.0345,0.1498,1.043
+C#,Webpack,2825,0.0471,0.1731,1.042
+Python,Node.js,10544,0.1757,0.3432,1.042
+Bash/Shell (all shells),Next.js,3076,0.0513,0.1507,1.042
+PowerShell,PostgreSQL,3693,0.0615,0.4434,1.042
+TypeScript,Pip,7037,0.1173,0.304,1.039
+jQuery,Kubernetes,1881,0.0313,0.1812,1.035
+Python,Maven (build tool),4461,0.0743,0.1452,1.033
+HTML/CSS,C,6669,0.1111,0.2096,1.032
+Microsoft SQL Server,Google Cloud,2640,0.044,0.1989,1.028
+JavaScript,Visual Studio Solution,5341,0.089,0.1425,1.028
+C++,NuGet,2060,0.0343,0.149,1.027
+NuGet,Gradle,1237,0.0206,0.1421,1.026
+Microsoft Azure,Pip,3860,0.0643,0.3004,1.026
+PowerShell,Amazon Web Services (AWS),3157,0.0526,0.3791,1.025
+HTML/CSS,Gradle,4516,0.0753,0.1419,1.025
+C#,MariaDB,2503,0.0417,0.1534,1.024
+Microsoft SQL Server,Docker,6615,0.1102,0.4983,1.023
+C#,MySQL,5871,0.0978,0.3598,1.023
+C++,Node.js,4661,0.0777,0.3371,1.023
+C#,React,5330,0.0888,0.3266,1.023
+C++,jQuery,2445,0.0407,0.1768,1.022
+Next.js,Make,1665,0.0277,0.1918,1.022
+Python,Next.js,4531,0.0755,0.1475,1.02
+Vite,Make,2063,0.0344,0.1909,1.018
+Java,Microsoft SQL Server,4109,0.0685,0.2253,1.018
+HTML/CSS,Maven (build tool),4532,0.0755,0.1424,1.013
+PHP,Maven (build tool),1558,0.026,0.1423,1.012
+SQL,Make,5821,0.097,0.1897,1.011
+Microsoft Azure,Gradle,1798,0.03,0.1399,1.01
+HTML/CSS,Python,16444,0.274,0.5168,1.01
+MariaDB,NuGet,1310,0.0218,0.1457,1.005
+Next.js,Maven (build tool),1222,0.0204,0.1408,1.001
+React,Make,3594,0.0599,0.1875,0.999
+Vite,NuGet,1565,0.0261,0.1449,0.999
+Java,Microsoft Azure,3900,0.065,0.2138,0.999
+Python,React,9792,0.1632,0.3188,0.998
+npm,Visual Studio Solution,3711,0.0618,0.1381,0.997
+Java,C#,4921,0.082,0.2698,0.992
+JavaScript,Python,19003,0.3167,0.5069,0.99
+C#,Gradle,2235,0.0372,0.137,0.989
+PostgreSQL,Microsoft SQL Server,5581,0.093,0.2186,0.988
+Vite,Maven (build tool),1499,0.025,0.1387,0.987
+MySQL,NuGet,3016,0.0503,0.1429,0.986
+Java,Webpack,2986,0.0498,0.1637,0.985
+jQuery,Make,1916,0.0319,0.1846,0.984
+Microsoft Azure,Vite,2277,0.0379,0.1772,0.984
+Python,PHP,5507,0.0918,0.1793,0.982
+Python,npm,13489,0.2248,0.4391,0.981
+C,SQL,6114,0.1019,0.5018,0.981
+HTML/CSS,C++,7186,0.1197,0.2259,0.98
+JavaScript,C,7449,0.1241,0.1987,0.979
+C,Docker,5801,0.0967,0.4761,0.978
+Microsoft SQL Server,React,4139,0.069,0.3118,0.976
+Python,Microsoft Azure,6409,0.1068,0.2086,0.974
+C#,Redis,2772,0.0462,0.1699,0.974
+C#,Docker,7726,0.1287,0.4735,0.972
+PHP,Microsoft Azure,2277,0.0379,0.2079,0.971
+TypeScript,Make,4215,0.0702,0.1821,0.97
+Pip,NuGet,2470,0.0412,0.1407,0.97
+Microsoft SQL Server,Amazon Web Services (AWS),4724,0.0787,0.3559,0.962
+Python,Yarn,5011,0.0835,0.1631,0.959
+C#,Kubernetes,2737,0.0456,0.1677,0.958
+Python,jQuery,5076,0.0846,0.1652,0.955
+HTML/CSS,Kubernetes,5316,0.0886,0.1671,0.955
+MySQL,Visual Studio Solution,2785,0.0464,0.132,0.953
+PHP,Kubernetes,1826,0.0304,0.1667,0.953
+Python,TypeScript,11277,0.1879,0.3671,0.952
+TypeScript,Visual Studio Solution,3048,0.0508,0.1317,0.95
+C#,Express,2224,0.0371,0.1363,0.949
+Python,Vite,5248,0.0875,0.1708,0.949
+C,PostgreSQL,4917,0.0819,0.4036,0.948
+JavaScript,C++,8186,0.1364,0.2183,0.948
+JavaScript,Make,6638,0.1106,0.1771,0.944
+C++,Docker,6356,0.1059,0.4597,0.944
+PostgreSQL,NuGet,3491,0.0582,0.1367,0.943
+MongoDB,Visual Studio Solution,1699,0.0283,0.1306,0.943
+Microsoft SQL Server,Gradle,1729,0.0288,0.1302,0.941
+C,Next.js,1656,0.0276,0.1359,0.94
+Microsoft SQL Server,Yarn,2122,0.0354,0.1598,0.94
+C++,SQL,6633,0.1105,0.4797,0.938
+Java,Vite,3081,0.0513,0.1689,0.938
+Node.js,Visual Studio Solution,2563,0.0427,0.1296,0.936
+HTML/CSS,Make,5571,0.0928,0.1751,0.933
+Bash/Shell (all shells),NuGet,2751,0.0458,0.1348,0.929
+PHP,NuGet,1470,0.0245,0.1342,0.926
+Express,NuGet,1151,0.0192,0.1336,0.921
+C#,Yarn,2555,0.0426,0.1566,0.92
+C++,Next.js,1833,0.0305,0.1326,0.916
+Webpack,Visual Studio Solution,1264,0.0211,0.1268,0.915
+C,React,3557,0.0593,0.2919,0.914
+C,Homebrew,2229,0.0371,0.1829,0.909
+C++,React,4009,0.0668,0.2899,0.908
+Pip,Visual Studio Solution,2203,0.0367,0.1254,0.905
+Microsoft SQL Server,Express,1724,0.0287,0.1299,0.905
+C#,Google Cloud,2850,0.0475,0.1747,0.903
+Microsoft Azure,Make,2178,0.0363,0.1695,0.903
+C#,PostgreSQL,6260,0.1043,0.3836,0.902
+C,npm,4915,0.0819,0.4034,0.901
+Amazon Web Services (AWS),NuGet,2898,0.0483,0.1306,0.9
+C++,Microsoft SQL Server,2749,0.0458,0.1988,0.899
+C#,Next.js,2120,0.0353,0.1299,0.898
+Bash/Shell (all shells),Microsoft SQL Server,4054,0.0676,0.1986,0.898
+C#,Vite,2639,0.044,0.1617,0.898
+Next.js,NuGet,1128,0.0188,0.1299,0.896
+PHP,Visual Studio Solution,1358,0.0226,0.124,0.895
+C++,PostgreSQL,5261,0.0877,0.3805,0.894
+NuGet,Maven (build tool),1094,0.0182,0.1257,0.894
+Make,Visual Studio Solution,1393,0.0232,0.1237,0.893
+Python,C#,7449,0.1241,0.2425,0.892
+C++,Microsoft Azure,2640,0.044,0.1909,0.892
+Bash/Shell (all shells),C#,4946,0.0824,0.2423,0.891
+MariaDB,Visual Studio Solution,1110,0.0185,0.1235,0.891
+C#,Pip,4248,0.0708,0.2603,0.89
+Docker,Visual Studio Solution,3588,0.0598,0.1228,0.886
+Google Cloud,NuGet,1482,0.0247,0.1277,0.881
+C,Redis,1865,0.0311,0.1531,0.878
+C,Yarn,1817,0.0303,0.1491,0.877
+Python,Webpack,4468,0.0745,0.1454,0.875
+C++,npm,5409,0.0901,0.3912,0.874
+C,NuGet,1537,0.0256,0.1261,0.87
+Google Cloud,Visual Studio Solution,1393,0.0232,0.12,0.866
+Kubernetes,Visual Studio Solution,1261,0.021,0.1201,0.866
+Microsoft SQL Server,Pip,3360,0.056,0.2531,0.865
+Python,Microsoft SQL Server,5873,0.0979,0.1912,0.864
+TypeScript,C,4058,0.0676,0.1753,0.863
+Visual Studio Solution,Gradle,992,0.0165,0.1193,0.862
+C,Amazon Web Services (AWS),3881,0.0647,0.3185,0.861
+C#,Amazon Web Services (AWS),5180,0.0863,0.3174,0.858
+C,Microsoft Azure,2227,0.0371,0.1828,0.854
+C#,Maven (build tool),1948,0.0325,0.1194,0.849
+C,Vite,1863,0.031,0.1529,0.849
+Microsoft SQL Server,Next.js,1629,0.0271,0.1227,0.848
+Python,Visual Studio Solution,3610,0.0602,0.1175,0.848
+C,Kubernetes,1808,0.0301,0.1484,0.848
+Microsoft SQL Server,Vite,2026,0.0338,0.1526,0.848
+TypeScript,C++,4515,0.0752,0.195,0.846
+C++,Homebrew,2343,0.039,0.1695,0.842
+Bash/Shell (all shells),Visual Studio Solution,2369,0.0395,0.1161,0.838
+C,Microsoft SQL Server,2250,0.0375,0.1847,0.835
+Java,NuGet,2203,0.0367,0.1208,0.833
+C++,Redis,2006,0.0334,0.1451,0.832
+PowerShell,Homebrew,1391,0.0232,0.167,0.83
+Java,Visual Studio Solution,2090,0.0348,0.1146,0.827
+C++,Amazon Web Services (AWS),4205,0.0701,0.3041,0.822
+Redis,Visual Studio Solution,1188,0.0198,0.1135,0.819
+C++,Yarn,1918,0.032,0.1387,0.815
+React,Visual Studio Solution,2151,0.0358,0.1122,0.81
+Maven (build tool),Visual Studio Solution,934,0.0156,0.1107,0.799
+Python,NuGet,3554,0.0592,0.1157,0.798
+C++,Kubernetes,1926,0.0321,0.1393,0.796
+C++,Vite,1970,0.0328,0.1425,0.791
+C#,Make,2400,0.04,0.1471,0.784
+Amazon Web Services (AWS),Visual Studio Solution,2398,0.04,0.1081,0.78
+Yarn,Visual Studio Solution,1101,0.0183,0.1078,0.778
+Make,NuGet,1269,0.0211,0.1127,0.777
+C,Webpack,1536,0.0256,0.1261,0.759
+Homebrew,NuGet,1296,0.0216,0.1073,0.74
+PostgreSQL,Visual Studio Solution,2614,0.0436,0.1024,0.739
+C++,Webpack,1688,0.0281,0.1221,0.735
+Microsoft SQL Server,Homebrew,1892,0.0315,0.1425,0.708
+Express,Visual Studio Solution,828,0.0138,0.0961,0.694
+C#,Homebrew,2246,0.0374,0.1376,0.684
+Next.js,Visual Studio Solution,808,0.0135,0.0931,0.672
+Microsoft SQL Server,Make,1605,0.0267,0.1209,0.644
+Vite,Visual Studio Solution,955,0.0159,0.0884,0.638
+Homebrew,Visual Studio Solution,910,0.0152,0.0753,0.544
