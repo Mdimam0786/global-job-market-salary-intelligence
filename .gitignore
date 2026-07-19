@@ -1,28 +1,42 @@
-# Data (large files -- document how to obtain them instead of committing)
-# Raw datasets stay local
+# ============================================================
+# Data
+# ============================================================
+# Raw source datasets stay local -- survey_results_public.csv alone is
+# ~160MB, over GitHub's 100MB hard limit. Document how to re-download
+# raw sources in README.md instead of committing them.
 data/raw/*.csv
 !data/raw/.gitkeep
 
-# Allow processed datasets for Streamlit deployment
+# Processed datasets ARE committed -- streamlit_app/config/settings.py
+# points DATA_DIR at data/processed/, and the app reads these CSVs
+# directly by default (USE_DATABASE=false). Without them, every page
+# shows "data file not found" on Streamlit Cloud.
 !data/processed/*.csv
 !data/processed/.gitkeep
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-# SQLite databases
+!data/interim/.gitkeep
+
+# SQLite / warehouse databases -- local scratch artifacts, not read by
+# the deployed app (it reads data/processed/*.csv or Postgres, never
+# a .db file directly)
 *.db
 
-# Project databases
+# Notebook-generated validation duplicates of data/processed/*.csv --
+# reproduced only to prove notebook results match the pipeline output,
+# not needed by the app or by anyone cloning the repo
+notebooks/reports/*.csv
 notebooks/reports/*.db
 
-# SQLite validation DB (local scratch artifact, not a project deliverable)
-data/validation.db
-
-# Environment / secrets (streamlit_app/.env holds DATABASE_URL, etc.)
+# ============================================================
+# Environment / secrets
+# ============================================================
+# streamlit_app/.env holds DATABASE_URL, USE_DATABASE, etc.
 .env
 .env.*
 !.env.example
 
+# ============================================================
 # Python
+# ============================================================
 __pycache__/
 *.pyc
 *.pyo
@@ -33,22 +47,32 @@ venv/
 .venv/
 env/
 
-# IDE
+# ============================================================
+# IDE / OS
+# ============================================================
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS
 .DS_Store
 Thumbs.db
 
-# Power BI (binary, environment-specific -- .pbix not produced in this build; see docs/technical_design_document.md)
+# ============================================================
+# Power BI
+# ============================================================
+# .pbix not produced in this build -- see docs/technical_design_document.md
 *.pbix
 
-# Streamlit app logs (folder tracked via .gitkeep, log files themselves are not)
+# ============================================================
+# Logs
+# ============================================================
+logs/*.log
 streamlit_app/logs/*.log
+!streamlit_app/logs/.gitkeep
 
-# A real resume PDF is personal -- if you add one to streamlit_app/assets/,
-# decide for yourself whether it belongs in version control. Not excluded
-# by default since that's your call, not an automatic policy.
+# ============================================================
+# Personal / optional
+# ============================================================
+# A real resume PDF is personal -- if you add one to
+# streamlit_app/assets/, decide for yourself whether it belongs in
+# version control. Not excluded by default.
