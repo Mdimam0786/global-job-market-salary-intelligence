@@ -3,6 +3,11 @@ data/raw/*.csv
 data/processed/*.csv
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+# SQLite databases
+*.db
+
+# Project databases
+notebooks/reports/*.db
 
 # SQLite validation DB (local scratch artifact, not a project deliverable)
 data/validation.db
