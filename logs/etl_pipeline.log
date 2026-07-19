@@ -1,0 +1,458 @@
+2026-07-19 04:05:48 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 04:05:48 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 04:05:50 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 04:05:50 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 04:05:50 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 04:06:12 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 04:06:12 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 04:06:13 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 04:06:13 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 04:06:14 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 04:06:14 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 04:06:14 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 04:06:15 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 04:07:11 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 04:07:11 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 04:07:12 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 04:07:12 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 04:07:12 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 04:07:12 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 04:07:12 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 04:07:13 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 04:07:13 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 04:07:19 | INFO     | load_star_schema | fact_levels_compensation: loaded 62642 rows, skipped 0 (lookup failures)
+2026-07-19 04:07:47 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 04:07:47 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 04:07:48 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 04:07:48 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 04:07:48 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 04:07:48 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 04:07:48 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 04:07:50 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 04:07:50 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 04:07:57 | INFO     | load_star_schema | fact_levels_compensation: loaded 62642 rows, skipped 0 (lookup failures)
+2026-07-19 04:08:04 | INFO     | load_star_schema | fact_so_respondent: loaded 65437 rows (0 skipped -- every FK on this table is nullable)
+2026-07-19 04:08:04 | INFO     | load_star_schema | --- Populating bridge table ---
+2026-07-19 04:08:36 | INFO     | load_star_schema | bridge_respondent_skill: loaded 967209 rows
+2026-07-19 04:08:36 | INFO     | load_star_schema | Done in 49.6s. Star schema loaded -- see sql/analysis_queries/ and sql/views/ to query it (those already target these exact table names).
+2026-07-19 09:01:34 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 09:01:35 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 09:01:38 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 09:01:38 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 09:01:39 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 09:01:39 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 09:01:39 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 09:01:40 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 09:01:41 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 09:01:48 | INFO     | load_star_schema | fact_levels_compensation: loaded 62642 rows, skipped 0 (lookup failures)
+2026-07-19 09:01:53 | INFO     | load_star_schema | fact_so_respondent: loaded 65437 rows (0 skipped -- every FK on this table is nullable)
+2026-07-19 09:01:53 | INFO     | load_star_schema | --- Populating bridge table ---
+2026-07-19 09:02:24 | INFO     | load_star_schema | bridge_respondent_skill: loaded 967209 rows
+2026-07-19 09:02:24 | INFO     | load_star_schema | Done in 49.5s. Star schema loaded -- see sql/analysis_queries/ and sql/views/ to query it (those already target these exact table names).
+2026-07-19 09:02:25 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 09:02:25 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 09:02:26 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 09:02:26 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_date: inserted 0 new row(s), skipped 8 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_country: inserted 0 new row(s), skipped 189 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_experience_level: inserted 0 new row(s), skipped 4 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_employment_type: inserted 0 new row(s), skipped 4 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_company_size: inserted 0 new row(s), skipped 3 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_remote_status: inserted 0 new row(s), skipped 3 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_education_level: inserted 0 new row(s), skipped 6 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_role_family: inserted 0 new row(s), skipped 34 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_company: inserted 0 new row(s), skipped 1632 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | dim_skill: inserted 0 new row(s), skipped 181 already present
+2026-07-19 09:02:26 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 09:02:26 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 09:02:26 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 09:02:28 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 09:02:28 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 09:02:34 | INFO     | load_star_schema | fact_levels_compensation: loaded 62642 rows, skipped 0 (lookup failures)
+2026-07-19 09:02:39 | INFO     | load_star_schema | fact_so_respondent: loaded 65437 rows (0 skipped -- every FK on this table is nullable)
+2026-07-19 09:02:39 | INFO     | load_star_schema | --- Populating bridge table ---
+2026-07-19 09:03:09 | INFO     | load_star_schema | bridge_respondent_skill: loaded 967209 rows
+2026-07-19 09:03:09 | INFO     | load_star_schema | Done in 44.2s. Star schema loaded -- see sql/analysis_queries/ and sql/views/ to query it (those already target these exact table names).
+2026-07-19 09:04:16 | INFO     | load_star_schema | All 8 required input files found in /home/claude/audit/final_repo/data/processed
+2026-07-19 09:04:16 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 09:04:16 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 09:04:16 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 09:04:17 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 09:04:17 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 09:04:17 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 09:04:18 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 09:04:18 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 09:04:23 | INFO     | load_star_schema | fact_levels_compensation: loaded 62642 rows, skipped 0 (lookup failures)
+2026-07-19 09:04:28 | INFO     | load_star_schema | fact_so_respondent: loaded 65437 rows (0 skipped -- every FK on this table is nullable)
+2026-07-19 09:04:28 | INFO     | load_star_schema | --- Populating bridge table ---
+2026-07-19 09:04:51 | INFO     | load_star_schema | bridge_respondent_skill: loaded 967209 rows
+2026-07-19 09:04:51 | INFO     | load_star_schema | Done in 35.9s. Star schema loaded -- see sql/analysis_queries/ and sql/views/ to query it (those already target these exact table names).
+2026-07-19 15:09:38 | INFO     | clean_jobs_data | Loading raw file: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\raw\jobs_in_data_2024.csv
+2026-07-19 15:09:39 | INFO     | clean_jobs_data | Loaded shape: (14199, 12)
+2026-07-19 15:09:39 | INFO     | clean_jobs_data | Duplicate report: {'duplicate_rows': 5493, 'duplicate_pct': 38.69, 'total_rows': 14199}
+2026-07-19 15:09:39 | INFO     | clean_jobs_data | No missing values found across any column.
+2026-07-19 15:09:39 | INFO     | clean_jobs_data | Max shift in job_title share if duplicates were dropped: 0.0255 (small shift supports keeping duplicates as real rows)
+2026-07-19 15:13:18 | INFO     | clean_jobs_data | Loading raw file: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\raw\jobs_in_data_2024.csv
+2026-07-19 15:13:18 | INFO     | clean_jobs_data | Loaded shape: (14199, 12)
+2026-07-19 15:13:19 | INFO     | clean_jobs_data | Duplicate report: {'duplicate_rows': 5493, 'duplicate_pct': 38.69, 'total_rows': 14199}
+2026-07-19 15:13:19 | INFO     | clean_jobs_data | No missing values found across any column.
+2026-07-19 15:13:19 | INFO     | clean_jobs_data | Max shift in job_title share if duplicates were dropped: 0.0255 (small shift supports keeping duplicates as real rows)
+2026-07-19 15:13:19 | INFO     | clean_jobs_data | Wrote cleaned fact table: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\jobs_fact_clean.csv shape=(14199, 15)
+2026-07-19 15:13:19 | INFO     | clean_jobs_data | Flagged 261 salary outliers (1.84%)
+2026-07-19 15:13:56 | INFO     | clean_levels_fyi | Loading raw file: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\raw\Levels_Fyi_Salary_Data.csv
+2026-07-19 15:13:57 | INFO     | clean_levels_fyi | Loaded shape: (62642, 29)
+2026-07-19 15:13:57 | INFO     | clean_levels_fyi | Duplicate report: {'duplicate_rows': 0, 'duplicate_pct': 0.0, 'total_rows': 62642}
+2026-07-19 15:13:57 | INFO     | clean_levels_fyi | Top null columns:
+                         null_count  null_pct
+Race                          40215     64.20
+Education                     32272     51.52
+otherdetails                  22508     35.93
+gender                        19540     31.19
+tag                             870      1.39
+level                           123      0.20
+company                           5      0.01
+totalyearlycompensation           0      0.00
+2026-07-19 15:14:05 | INFO     | clean_levels_fyi | Rows where country could not be parsed: 0
+2026-07-19 15:14:06 | INFO     | clean_levels_fyi | Wrote cleaned Levels.fyi table: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\levels_fyi_clean.csv shape=(62642, 25)
+2026-07-19 15:14:06 | INFO     | clean_levels_fyi | Flagged 3133 comp outliers (5.00%)
+2026-07-19 15:14:40 | INFO     | clean_so_survey | Loading raw file: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\raw\survey_results_public.csv (subset of columns only)
+2026-07-19 15:14:41 | INFO     | clean_so_survey | Loaded shape: (65437, 17)
+2026-07-19 15:14:41 | INFO     | clean_so_survey | Null report (top 8):
+                        null_count  null_pct
+ConvertedCompYearly          42002     64.19
+Industry                     36579     55.90
+CompTotal                    31697     48.44
+PlatformHaveWorkedWith       23071     35.26
+WebframeHaveWorkedWith       20276     30.99
+Currency                     18753     28.66
+OrgSize                      17957     27.44
+DatabaseHaveWorkedWith       15183     23.20
+2026-07-19 15:14:41 | INFO     | clean_so_survey | Salary view: kept 23435 / 65437 rows (35.8%) with non-null comp + country
+2026-07-19 15:14:41 | INFO     | clean_so_survey | Rows below $1,000/yr sanity floor: 545
+2026-07-19 15:14:42 | INFO     | clean_so_survey | Wrote skills view: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\so_skills_clean.csv shape=(65437, 18)
+2026-07-19 15:14:42 | INFO     | clean_so_survey | Wrote salary view: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\so_salary_clean.csv shape=(23435, 20)
+2026-07-19 15:15:18 | INFO     | build_skill_bridge | Loading: C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\so_skills_clean.csv
+2026-07-19 15:15:19 | INFO     | build_skill_bridge | Loaded shape: (65437, 18)
+2026-07-19 15:15:19 | INFO     | build_skill_bridge | Built dim_skill: 181 distinct skills across 5 categories
+2026-07-19 15:15:19 | INFO     | build_skill_bridge | Skills per category:
+skill_category
+Language    49
+Webframe    36
+Database    35
+Tool        34
+Platform    27
+Name: count, dtype: int64
+2026-07-19 15:15:31 | INFO     | build_skill_bridge | Built bridge_respondent_skill: 967209 (respondent, skill) pairs across 60009 respondents
+2026-07-19 15:15:32 | INFO     | build_skill_bridge | Wrote C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\dim_skill.csv and C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\bridge_respondent_skill.csv
+2026-07-19 15:15:53 | INFO     | skill_relationships | Bridge rows: 967209, respondents: 60009, skills: 181
+2026-07-19 15:15:53 | INFO     | skill_relationships | Restricting to top 40 skills with >= 500 respondents (pairwise combinations grow quadratically, and rare skills give unstable lift estimates)
+2026-07-19 15:15:55 | INFO     | skill_relationships | Wrote 780 skill pairs to C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed\skill_association_rules.csv
+2026-07-19 15:15:55 | INFO     | skill_relationships | Top 15 by lift (min 500 co-occurrences):
+                  skill_a                 skill_b  co_occurrence_count  support  confidence_a_to_b   lift
+563                 NuGet  Visual Studio Solution                 4413   0.0735             0.5071  3.659
+439                    C#                   NuGet                 8056   0.1342             0.4937  3.404
+463  Microsoft SQL Server                   NuGet                 5819   0.0970             0.4383  3.022
+606    Maven (build tool)                  Gradle                 3481   0.0580             0.4127  2.980
+126               Express                 Next.js                 3692   0.0615             0.4286  2.963
+427               Webpack                    Yarn                 5021   0.0837             0.5036  2.960
+457                   PHP                 MariaDB                 4793   0.0799             0.4377  2.921
+491                  Java      Maven (build tool)                 7451   0.1242             0.4085  2.906
+217                     C                     C++                 8134   0.1355             0.6676  2.897
+528                    C#  Visual Studio Solution                 6344   0.1057             0.3888  2.806
+136               Next.js                   React                 7465   0.1244             0.8599  2.692
+127               Express                 Node.js                 7577   0.1263             0.8796  2.670
+170                  Vite                 Webpack                 4735   0.0789             0.4383  2.638
+556  Microsoft SQL Server  Visual Studio Solution                 4783   0.0797             0.3603  2.600
+442            PowerShell                   NuGet                 3132   0.0522             0.3761  2.593
+2026-07-19 15:16:21 | INFO     | salary_prediction | Loaded 14199 rows for salary prediction
+2026-07-19 15:16:22 | INFO     | salary_prediction | Linear Regression: MAE=$39,857  RMSE=$54,118  R2(test)=0.296  5-fold CV R2=0.426 (+/- 0.023)
+2026-07-19 15:16:30 | INFO     | salary_prediction | Random Forest: MAE=$39,563  RMSE=$53,632  R2(test)=0.308  5-fold CV R2=0.428 (+/- 0.025)
+2026-07-19 15:16:32 | INFO     | salary_prediction | Gradient Boosting (default): MAE=$39,899  RMSE=$54,385  R2(test)=0.289  5-fold CV R2=0.435 (+/- 0.022)
+2026-07-19 15:16:32 | INFO     | salary_prediction | Hyperparameter tuning: RandomizedSearchCV over GradientBoostingRegressor
+2026-07-19 15:16:42 | INFO     | salary_prediction | Best params: {'model__subsample': 0.85, 'model__n_estimators': 200, 'model__max_depth': 5, 'model__learning_rate': 0.05}
+2026-07-19 15:16:42 | INFO     | salary_prediction | Best CV R2: 0.441
+2026-07-19 15:16:42 | INFO     | salary_prediction | Tuned Gradient Boosting: MAE=$39,542  R2(test)=0.303
+2026-07-19 15:16:42 | INFO     | salary_prediction | Permutation importance (global feature importance, SHAP substitute -- see module docstring)
+2026-07-19 15:16:43 | INFO     | salary_prediction | Feature importance by column (permutation-based):
+company_location    0.296477
+job_category        0.207084
+experience_level    0.191392
+work_setting        0.010792
+company_size        0.007161
+employment_type     0.000007
+dtype: float64
+2026-07-19 15:16:43 | INFO     | salary_prediction | Wrote model comparison and feature importance to C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\reports
+2026-07-19 15:19:49 | INFO     | classification_models | ======================================================================
+2026-07-19 15:19:49 | INFO     | classification_models | TASK: Experience Level Prediction
+2026-07-19 15:19:49 | INFO     | classification_models | ======================================================================
+2026-07-19 15:19:49 | INFO     | classification_models | Class distribution:
+experience_level
+Senior         9381
+Mid-level      3339
+Entry-level    1063
+Executive       416
+Name: count, dtype: int64
+2026-07-19 15:20:00 | INFO     | classification_models | Logistic Regression: test accuracy=0.680, weighted F1=0.604, 5-fold CV weighted F1=0.605 (+/- 0.009)
+2026-07-19 15:20:11 | INFO     | classification_models | Random Forest: test accuracy=0.701, weighted F1=0.688, 5-fold CV weighted F1=0.665 (+/- 0.010)
+2026-07-19 15:20:11 | INFO     | classification_models | Detailed classification report (Random Forest):
+              precision    recall  f1-score   support
+
+ Entry-level       0.48      0.40      0.44       213
+   Executive       0.49      0.25      0.33        83
+   Mid-level       0.50      0.41      0.45       668
+      Senior       0.78      0.86      0.82      1876
+
+    accuracy                           0.70      2840
+   macro avg       0.56      0.48      0.51      2840
+weighted avg       0.68      0.70      0.69      2840
+
+2026-07-19 15:20:11 | INFO     | classification_models | ======================================================================
+2026-07-19 15:20:11 | INFO     | classification_models | TASK: Remote Work Status Prediction
+2026-07-19 15:20:11 | INFO     | classification_models | ======================================================================
+2026-07-19 15:20:11 | INFO     | classification_models | Class distribution:
+work_setting
+In-person    9413
+Remote       4573
+Hybrid        213
+Name: count, dtype: int64
+2026-07-19 15:20:17 | INFO     | classification_models | Logistic Regression: test accuracy=0.673, weighted F1=0.569, 5-fold CV weighted F1=0.560 (+/- 0.004)
+2026-07-19 15:20:30 | INFO     | classification_models | Random Forest: test accuracy=0.690, weighted F1=0.682, 5-fold CV weighted F1=0.678 (+/- 0.010)
+2026-07-19 15:20:30 | INFO     | classification_models | Detailed classification report (Random Forest):
+              precision    recall  f1-score   support
+
+      Hybrid       0.32      0.24      0.27        42
+   In-person       0.76      0.81      0.78      1883
+      Remote       0.53      0.46      0.49       915
+
+    accuracy                           0.69      2840
+   macro avg       0.54      0.50      0.52      2840
+weighted avg       0.68      0.69      0.68      2840
+
+2026-07-19 15:20:57 | INFO     | job_clustering | Elbow method + silhouette score across k=3..8
+2026-07-19 15:21:02 | INFO     | job_clustering | k=3: inertia=27167, silhouette=0.205
+2026-07-19 15:21:03 | INFO     | job_clustering | k=4: inertia=24159, silhouette=0.202
+2026-07-19 15:21:05 | INFO     | job_clustering | k=5: inertia=22374, silhouette=0.212
+2026-07-19 15:21:06 | INFO     | job_clustering | k=6: inertia=21039, silhouette=0.188
+2026-07-19 15:21:07 | INFO     | job_clustering | k=7: inertia=19816, silhouette=0.195
+2026-07-19 15:21:08 | INFO     | job_clustering | k=8: inertia=18857, silhouette=0.216
+2026-07-19 15:21:08 | INFO     | job_clustering | Best k by silhouette score: 8
+2026-07-19 15:21:08 | INFO     | job_clustering | Cluster profiles (k=8):
+2026-07-19 15:21:08 | INFO     | job_clustering | 
+            n  median_salary               top_category top_experience  pct_remote
+cluster                                                                           
+0        1766        86000.0              Data Analysis         Senior    0.000000
+1        1332       145000.0           Data Engineering         Senior    0.000000
+2        1572       172200.0    Machine Learning and AI         Senior    0.000000
+3        1324       267720.0  Data Science and Research         Senior   13.670695
+4        2392       172200.0  Data Science and Research         Senior  100.000000
+5        1937       105300.0  Data Science and Research      Mid-level    0.000000
+6        1870       162000.0  Data Science and Research         Senior    0.000000
+7        2006        96000.0              Data Analysis         Senior   99.700897
+2026-07-19 15:21:14 | INFO     | skill_recommender | Known skills: ['Python', 'SQL']
+2026-07-19 15:21:14 | INFO     | skill_recommender | Recommended next:
+   recommended_skill  lift  co_occurrence_count
+                 Pip 1.737                15616
+Microsoft SQL Server 1.553                10539
+              jQuery 1.484                 7874
+                 PHP 1.470                 8230
+          PowerShell 1.442                 6142
+
+2026-07-19 15:21:14 | INFO     | skill_recommender | Known skills: ['React', 'JavaScript']
+2026-07-19 15:21:14 | INFO     | skill_recommender | Recommended next:
+recommended_skill  lift  co_occurrence_count
+          Next.js 2.692                 7465
+          Express 2.211                 6083
+          Webpack 2.123                 6761
+             Yarn 2.110                 6879
+             Vite 2.081                 7180
+
+2026-07-19 15:21:14 | INFO     | skill_recommender | Known skills: ['C#']
+2026-07-19 15:21:14 | INFO     | skill_recommender | Recommended next:
+     recommended_skill  lift  co_occurrence_count
+                 NuGet 3.404                 8056
+Visual Studio Solution 2.806                 6344
+  Microsoft SQL Server 2.478                 8944
+            PowerShell 2.085                 4722
+       Microsoft Azure 1.984                 6934
+
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | 1. HYPOTHESIS TESTING
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | H1: Remote vs In-person salary (Welch's t-test)
+2026-07-19 15:21:25 | INFO     | statistics |     Remote: n=4573, mean=$145,211 | In-person: n=9413, mean=$152,934
+2026-07-19 15:21:25 | INFO     | statistics |     t=-6.939, p=0.0000 -> REJECT H0 (significant difference)
+2026-07-19 15:21:25 | INFO     | statistics | H2: US vs UK salary (Welch's t-test)
+2026-07-19 15:21:25 | INFO     | statistics |     US: n=12465, mean=$156,526 | UK: n=623, mean=$96,287
+2026-07-19 15:21:25 | INFO     | statistics |     t=25.249, p=0.000000 -> REJECT H0
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | 2. ANOVA
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | ANOVA: salary_in_usd ~ job_category (categories with n>=30)
+2026-07-19 15:21:25 | INFO     | statistics |     F=281.69, p=0.00e+00, eta-squared=0.137
+2026-07-19 15:21:25 | INFO     | statistics |     -> REJECT H0: job_category explains a significant share of salary variance
+2026-07-19 15:21:25 | INFO     | statistics |     Effect size interpretation: eta-squared of 0.137 is medium by Cohen's convention
+2026-07-19 15:21:25 | INFO     | statistics | ANOVA: salary_in_usd ~ experience_level
+2026-07-19 15:21:25 | INFO     | statistics |     F=766.16, p=0.00e+00, eta-squared=0.139 (medium effect)
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | 3. CORRELATION ANALYSIS
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | Levels.fyi: years_of_experience vs total_yearly_compensation
+2026-07-19 15:21:25 | INFO     | statistics |     Pearson r=0.423, p=0.00e+00, n=62642 -> statistically significant (moderate relationship)
+2026-07-19 15:21:25 | INFO     | statistics | Stack Overflow: YearsCodePro vs ConvertedCompYearly
+2026-07-19 15:21:25 | INFO     | statistics |     Pearson r=0.141, p=8.69e-104, n=23345 -> statistically significant (weak relationship)
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | 4. CONFIDENCE INTERVALS (95%)
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | Entry-level: mean=$91,872, 95% CI=[$88,965, $94,779], n=1063
+2026-07-19 15:21:25 | INFO     | statistics | Executive: mean=$192,733, 95% CI=[$185,982, $199,483], n=416
+2026-07-19 15:21:25 | INFO     | statistics | Mid-level: mean=$124,097, 95% CI=[$122,122, $126,072], n=3339
+2026-07-19 15:21:25 | INFO     | statistics | Senior: mean=$163,112, 95% CI=[$161,879, $164,345], n=9381
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | 5. REGRESSION ANALYSIS (scikit-learn, statsmodels unavailable -- see module docstring)
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | Model: salary_in_usd ~ experience_level(ordinal) + job_category + work_setting + company_size
+2026-07-19 15:21:25 | INFO     | statistics |     R-squared = 0.250  (model explains 25.0% of salary variance)
+2026-07-19 15:21:25 | INFO     | statistics |     Overall F-test: F(14,14184)=337.6, p=1.11e-16 -> model is statistically significant
+2026-07-19 15:21:25 | INFO     | statistics |     Intercept: $37,690
+2026-07-19 15:21:25 | INFO     | statistics |     Coefficient on experience_level (per level step): $29,642
+2026-07-19 15:21:25 | INFO     | statistics |     Top 5 positive category effects (vs. baseline):
+job_category_Machine Learning and AI           53679.271371
+work_setting_In-person                         44033.966563
+work_setting_Remote                            37357.889747
+job_category_Data Science and Research         35435.666423
+job_category_Data Architecture and Modeling    22046.664162
+dtype: float64
+2026-07-19 15:21:25 | INFO     | statistics |     Top 5 negative category effects (vs. baseline):
+company_size_M                               -1202.253909
+job_category_Data Analysis                  -10401.072402
+job_category_Data Management and Strategy   -17427.418949
+job_category_Data Quality and Operations    -23099.334572
+company_size_S                              -43856.734857
+dtype: float64
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | 6. DISTRIBUTION ANALYSIS
+2026-07-19 15:21:25 | INFO     | statistics | ======================================================================
+2026-07-19 15:21:25 | INFO     | statistics | jobs_fact salary_in_usd: skewness=0.736 (right-skewed), excess kurtosis=0.881 (heavy-tailed)
+2026-07-19 15:21:25 | INFO     | statistics |     Anderson-Darling statistic=75.99 vs. 5% critical value=0.79 -> reject normality
+2026-07-19 15:21:25 | INFO     | statistics |     After log1p transform: skewness=-0.688 (much closer to normal)
+2026-07-19 15:21:25 | INFO     | statistics | Levels.fyi total_yearly_compensation: skewness=4.512 (right-skewed), excess kurtosis=86.995 (heavy-tailed)
+2026-07-19 15:21:25 | INFO     | statistics |     Anderson-Darling statistic=2076.15 vs. 5% critical value=0.79 -> reject normality
+2026-07-19 15:21:25 | INFO     | statistics |     After log1p transform: skewness=-0.717 (much closer to normal)
+2026-07-19 15:25:42 | INFO     | load_star_schema | All 8 required input files found in C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed
+2026-07-19 15:25:42 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 15:25:43 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 15:25:43 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_date: inserted 8 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_country: inserted 189 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_experience_level: inserted 4 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_employment_type: inserted 4 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_company_size: inserted 3 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_remote_status: inserted 3 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_education_level: inserted 6 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_role_family: inserted 34 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_company: inserted 1632 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | dim_skill: inserted 181 new row(s), skipped 0 already present
+2026-07-19 15:25:43 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 15:25:43 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 15:25:43 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 15:25:44 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 15:25:45 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 15:25:45 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 12378) -- row will be skipped
+2026-07-19 15:25:45 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 15054) -- row will be skipped
+2026-07-19 15:25:45 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 17356) -- row will be skipped
+2026-07-19 15:25:45 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 17608) -- row will be skipped
+2026-07-19 15:25:45 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 18651) -- row will be skipped
+2026-07-19 15:25:51 | INFO     | load_star_schema | fact_levels_compensation: loaded 62618 rows, skipped 24 (lookup failures)
+2026-07-19 15:25:57 | INFO     | load_star_schema | fact_so_respondent: loaded 65437 rows (0 skipped -- every FK on this table is nullable)
+2026-07-19 15:25:57 | INFO     | load_star_schema | --- Populating bridge table ---
+2026-07-19 15:26:44 | INFO     | load_star_schema | bridge_respondent_skill: loaded 967209 rows
+2026-07-19 15:26:44 | INFO     | load_star_schema | Done in 62.1s. Star schema loaded -- see sql/analysis_queries/ and sql/views/ to query it (those already target these exact table names).
+2026-07-19 15:27:23 | INFO     | load_star_schema | All 8 required input files found in C:\Users\Md Imamuddin\OneDrive\Desktop\Global_Job_Market_Intelligence_Platform\data\processed
+2026-07-19 15:27:23 | INFO     | load_star_schema | Connected to PostgreSQL
+2026-07-19 15:27:23 | INFO     | load_star_schema | Loaded source CSVs: jobs=14199, levels_fyi=62642, so_salary=23435, so_skills=65437, bridge=967209
+2026-07-19 15:27:23 | INFO     | load_star_schema | --- Populating dimensions ---
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_date: inserted 0 new row(s), skipped 8 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_country: inserted 0 new row(s), skipped 189 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_experience_level: inserted 0 new row(s), skipped 4 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_employment_type: inserted 0 new row(s), skipped 4 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_company_size: inserted 0 new row(s), skipped 3 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_remote_status: inserted 0 new row(s), skipped 3 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_education_level: inserted 0 new row(s), skipped 6 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_role_family: inserted 0 new row(s), skipped 34 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_company: inserted 0 new row(s), skipped 1632 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | dim_skill: inserted 0 new row(s), skipped 181 already present
+2026-07-19 15:27:24 | INFO     | load_star_schema | --- Clearing fact and bridge tables before reload ---
+2026-07-19 15:27:24 | INFO     | load_star_schema | Truncated fact_job_postings, fact_levels_compensation, fact_so_respondent, bridge_respondent_skill
+2026-07-19 15:27:24 | INFO     | load_star_schema | --- Populating fact tables ---
+2026-07-19 15:27:25 | INFO     | load_star_schema | fact_job_postings: loaded 14199 rows, skipped 0 (lookup failures)
+2026-07-19 15:27:25 | WARNING  | load_star_schema | record_id 11011: gender value 'Title: Senior Software Engineer' exceeds 20 chars, storing NULL instead
+2026-07-19 15:27:25 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 12378) -- row will be skipped
+2026-07-19 15:27:25 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 15054) -- row will be skipped
+2026-07-19 15:27:25 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 17356) -- row will be skipped
+2026-07-19 15:27:25 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 17608) -- row will be skipped
+2026-07-19 15:27:25 | WARNING  | load_star_schema | No country_key match for value 'South' (row id 18651) -- row will be skipped
+2026-07-19 15:27:33 | INFO     | load_star_schema | fact_levels_compensation: loaded 62618 rows, skipped 24 (lookup failures)
+2026-07-19 15:27:40 | INFO     | load_star_schema | fact_so_respondent: loaded 65437 rows (0 skipped -- every FK on this table is nullable)
+2026-07-19 15:27:40 | INFO     | load_star_schema | --- Populating bridge table ---
+2026-07-19 15:28:28 | INFO     | load_star_schema | bridge_respondent_skill: loaded 967209 rows
+2026-07-19 15:28:28 | INFO     | load_star_schema | Done in 65.3s. Star schema loaded -- see sql/analysis_queries/ and sql/views/ to query it (those already target these exact table names).
