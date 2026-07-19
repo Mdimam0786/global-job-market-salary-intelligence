@@ -1,0 +1,9 @@
+cluster,n,median_salary,top_category,top_experience,pct_remote
+0,1766,86000.0,Data Analysis,Senior,0.0
+1,1332,145000.0,Data Engineering,Senior,0.0
+2,1572,172200.0,Machine Learning and AI,Senior,0.0
+3,1324,267720.0,Data Science and Research,Senior,13.670694864048338
+4,2392,172200.0,Data Science and Research,Senior,100.0
+5,1937,105300.0,Data Science and Research,Mid-level,0.0
+6,1870,162000.0,Data Science and Research,Senior,0.0
+7,2006,96000.0,Data Analysis,Senior,99.70089730807578
