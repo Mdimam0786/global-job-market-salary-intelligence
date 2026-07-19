@@ -1,0 +1,44 @@
+# Data (large files -- document how to obtain them instead of committing)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# SQLite validation DB (local scratch artifact, not a project deliverable)
+data/validation.db
+
+# Environment / secrets (streamlit_app/.env holds DATABASE_URL, etc.)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI (binary, environment-specific -- .pbix not produced in this build; see docs/technical_design_document.md)
+*.pbix
+
+# Streamlit app logs (folder tracked via .gitkeep, log files themselves are not)
+streamlit_app/logs/*.log
+
+# A real resume PDF is personal -- if you add one to streamlit_app/assets/,
+# decide for yourself whether it belongs in version control. Not excluded
+# by default since that's your call, not an automatic policy.

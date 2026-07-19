@@ -1,0 +1,15 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+scikit-learn>=1.3
+
+# Optional -- used for a few substitutions documented in reports/ml_analysis.md
+# and docs/technical_design_document.md (e.g. scikit-learn's GradientBoostingRegressor
+# stands in for XGBoost/LightGBM, permutation_importance stands in for SHAP).
+# Uncomment and install these for the real libraries instead:
+# xgboost
+# lightgbm
+# shap
+# statsmodels
+# wordcloud
+# duckdb
