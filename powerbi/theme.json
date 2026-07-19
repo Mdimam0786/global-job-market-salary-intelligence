@@ -1,0 +1,54 @@
+{
+  "name": "Global Job Market Intelligence",
+  "dataColors": [
+    "#2A78D6",
+    "#1BAF7A",
+    "#EDA100",
+    "#4A3AA7",
+    "#E34948",
+    "#EB6834",
+    "#0C447C",
+    "#085041"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#2A78D6",
+  "good": "#1BAF7A",
+  "neutral": "#EDA100",
+  "bad": "#E34948",
+  "maximum": "#2A78D6",
+  "center": "#EDA100",
+  "minimum": "#F2F2F2",
+  "null": "#B4B2A9",
+  "textClasses": {
+    "callout": { "fontSize": 32, "fontFace": "Segoe UI Semibold" },
+    "title": { "fontSize": 14, "fontFace": "Segoe UI Semibold", "color": "#252423" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "properties": { "show": { "expr": { "Literal": { "Value": "false" } } } } }],
+        "border": [{ "properties": { "show": { "expr": { "Literal": { "Value": "false" } } } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "properties": {
+          "color": { "solid": { "color": "#252423" } },
+          "fontSize": 28
+        } }],
+        "categoryLabels": [{ "properties": {
+          "color": { "solid": { "color": "#605E5C" } },
+          "fontSize": 12
+        } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [{ "properties": { "responsive": { "expr": { "Literal": { "Value": "true" } } } } }]
+      }
+    }
+  }
+}

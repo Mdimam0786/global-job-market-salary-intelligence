@@ -1,0 +1,183 @@
+// =====================================================================
+// Global Job Market & Salary Intelligence Platform
+// DAX Measure Library
+// Author: Md Imamuddin
+// =====================================================================
+// Data model assumption: fact_job_postings, fact_levels_compensation,
+// and fact_so_respondent are imported as separate tables (per the
+// Phase 4 galaxy schema -- they are NOT merged), each related to shared
+// dim_date / dim_country tables. Measures below are grouped by which
+// fact table they apply to.
+//
+// LIMITATION, stated plainly: all three sources are annual-grain data
+// (see Phase 4 dim_date design). Power BI's built-in time-intelligence
+// functions (TOTALQTD, SAMEPERIODLASTQUARTER, etc.) require a real daily
+// calendar table to work correctly -- they will silently return blank
+// or wrong results against a year-only date dimension. QoQ growth
+// measures are therefore NOT included here; building them would require
+// either fabricating quarters (which the source data doesn't have) or
+// misusing DAX time intelligence in a way that produces meaningless
+// numbers. YoY growth, which IS meaningful at annual grain, is included.
+// =====================================================================
+
+// ---------------------------------------------------------------------
+// SECTION 1: Core KPIs (fact_job_postings)
+// ---------------------------------------------------------------------
+
+Total Postings =
+COUNTROWS ( fact_job_postings )
+
+Average Salary (USD) =
+AVERAGE ( fact_job_postings[salary_in_usd] )
+
+Median Salary (USD) =
+MEDIAN ( fact_job_postings[salary_in_usd] )
+
+// DAX has no native percentile-with-grouping shortcut like SQL's
+// PERCENTILE_CONT window function, so PERCENTILEX.INC is the standard
+// pattern for grouped percentiles inside a visual's filter context.
+P25 Salary (USD) =
+PERCENTILEX.INC ( fact_job_postings, fact_job_postings[salary_in_usd], 0.25 )
+
+P75 Salary (USD) =
+PERCENTILEX.INC ( fact_job_postings, fact_job_postings[salary_in_usd], 0.75 )
+
+Distinct Countries =
+DISTINCTCOUNT ( fact_job_postings[country_key] )
+
+Distinct Job Titles =
+DISTINCTCOUNT ( fact_job_postings[job_title] )
+
+Outlier Rate % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_job_postings ), fact_job_postings[salary_is_outlier] = TRUE () ),
+    [Total Postings]
+)
+// Surfaces the Phase 3 outlier flag directly in the report rather than
+// silently filtering it out -- lets a report viewer choose to include
+// or exclude outliers via a slicer instead of the model deciding for them.
+
+
+// ---------------------------------------------------------------------
+// SECTION 2: Time Intelligence (annual grain -- YoY only, see note above)
+// ---------------------------------------------------------------------
+
+Prior Year Median Salary =
+CALCULATE (
+    [Median Salary (USD)],
+    DATEADD ( dim_date[date_key], -1, YEAR )
+)
+// NOTE: DATEADD requires a proper date/calendar column, not a plain year
+// integer. If dim_date[date_key] is modeled as a SMALLINT year (as built
+// in Phase 4) rather than a true DATE column, use the non-time-intelligence
+// version below instead, which is what this project actually needs:
+
+Prior Year Median Salary (year-key version) =
+VAR CurrentYear = SELECTEDVALUE ( dim_date[work_year] )
+RETURN
+    CALCULATE (
+        [Median Salary (USD)],
+        dim_date[work_year] = CurrentYear - 1
+    )
+
+YoY Salary Growth % =
+VAR Current = [Median Salary (USD)]
+VAR Prior = [Prior Year Median Salary (year-key version)]
+RETURN
+    DIVIDE ( Current - Prior, Prior )
+
+YoY Postings Growth % =
+VAR CurrentYear = SELECTEDVALUE ( dim_date[work_year] )
+VAR CurrentCount = [Total Postings]
+VAR PriorCount =
+    CALCULATE ( [Total Postings], dim_date[work_year] = CurrentYear - 1 )
+RETURN
+    DIVIDE ( CurrentCount - PriorCount, PriorCount )
+
+3-Year Rolling Average Salary =
+// "Rolling" here means a 3-year window, the annual-grain equivalent of a
+// rolling quarterly/monthly average -- explicitly NOT a true moving
+// average over transactional dates, which this dataset cannot support.
+VAR CurrentYear = SELECTEDVALUE ( dim_date[work_year] )
+RETURN
+    CALCULATE (
+        [Average Salary (USD)],
+        FILTER (
+            ALL ( dim_date[work_year] ),
+            dim_date[work_year] <= CurrentYear && dim_date[work_year] > CurrentYear - 3
+        )
+    )
+
+
+// ---------------------------------------------------------------------
+// SECTION 3: Remote Work Analysis
+// ---------------------------------------------------------------------
+
+Remote Share % =
+DIVIDE (
+    CALCULATE ( [Total Postings], fact_job_postings[work_setting_key] = "Remote" ),
+    [Total Postings]
+)
+
+Remote vs Onsite Salary Gap % =
+VAR RemoteSalary =
+    CALCULATE ( [Median Salary (USD)], fact_job_postings[work_setting_key] = "Remote" )
+VAR OnsiteSalary =
+    CALCULATE ( [Median Salary (USD)], fact_job_postings[work_setting_key] = "In-person" )
+RETURN
+    DIVIDE ( RemoteSalary - OnsiteSalary, OnsiteSalary )
+
+
+// ---------------------------------------------------------------------
+// SECTION 4: Ranking Measures (drive "Top N" visuals and tooltips)
+// ---------------------------------------------------------------------
+
+Country Salary Rank =
+RANKX (
+    ALL ( dim_country[country_name] ),
+    CALCULATE ( [Median Salary (USD)] ),
+    ,
+    DESC
+)
+
+Job Category Salary Rank =
+RANKX (
+    ALL ( dim_role_family[role_family_name] ),
+    CALCULATE ( [Median Salary (USD)] ),
+    ,
+    DESC
+)
+
+
+// ---------------------------------------------------------------------
+// SECTION 5: Cross-Source Comparison (Levels.fyi + Stack Overflow)
+// ---------------------------------------------------------------------
+// IMPORTANT: these measures are shown SIDE BY SIDE on dashboard visuals,
+// never blended into a shared "Average Salary" measure -- per the Phase
+// 3/4/9 finding that the three sources are different populations. A
+// combined measure would silently average three different labor markets.
+
+Levels.fyi Median Total Comp =
+MEDIAN ( fact_levels_compensation[total_yearly_compensation] )
+
+Stack Overflow Median Comp =
+CALCULATE (
+    MEDIAN ( fact_so_respondent[comp_usd] ),
+    NOT ISBLANK ( fact_so_respondent[comp_usd] )
+)
+
+
+// ---------------------------------------------------------------------
+// SECTION 6: Data Quality Transparency Measures
+// ---------------------------------------------------------------------
+// Surfacing sample size directly in visuals prevents a viewer from
+// trusting a rank/percentage built on a handful of rows -- addresses
+// the thin-sample-country caveat from Phase 5 EDA directly in the report
+// rather than only in a written appendix nobody reads.
+
+Sample Size Warning =
+IF (
+    [Total Postings] < 30,
+    "⚠ n<30 — directional only",
+    ""
+)
